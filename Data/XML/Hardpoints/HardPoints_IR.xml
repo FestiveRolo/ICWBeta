@@ -10318,7 +10318,7 @@
 
     </HardPoint>
 		
-	<!-- Dreadnaught Hardpoints -->
+	<!-- Neutron Star/Bulk Cruiser Hardpoints -->
 
 	<HardPoint Name="HP_Neutron_Weapon_Quad01">
 			<Type> HARD_POINT_WEAPON_LASER </Type>
@@ -10423,7 +10423,7 @@
 
             <Fire_Bone_A>Turbo_03</Fire_Bone_A>
             <Fire_Bone_B>Turbo_03</Fire_Bone_B>
-            <Fire_Cone_Width>145</Fire_Cone_Width>
+            <Fire_Cone_Width>275</Fire_Cone_Width>
             <Fire_Cone_Height>130.0</Fire_Cone_Height>
            <Fire_Projectile_Type>Proj_Ship_Turbolaser_Green_Quad</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
@@ -10642,7 +10642,218 @@
 	</HardPoint>
 
 
+	<!-- CW Neutron Star Hard Points -->
 
+	<HardPoint Name="HP_Neutron_Lasers_Weapon01">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Tooltip_Text>TEXT_WEAPON_TURBOLASER_QUAD</Tooltip_Text>
+            <Health>160.0</Health>
+
+			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
+			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+
+
+            <Model_To_Attach>Turbo_01</Model_To_Attach>
+            <Attachment_Bone> Turbo_01 </Attachment_Bone>
+            <Collision_Mesh>Turbo_01</Collision_Mesh>
+            <Damage_Decal>HP_F-L_BLAST</Damage_Decal>
+            <Damage_Particles>R3</Damage_Particles>
+
+			<Death_Breakoff_Prop> </Death_Breakoff_Prop>
+
+            <Fire_Bone_A>Turbo_01</Fire_Bone_A>
+            <Fire_Bone_B>Turbo_01</Fire_Bone_B>
+            <Fire_Cone_Width>145</Fire_Cone_Width>
+            <Fire_Cone_Height>130.0</Fire_Cone_Height>
+           <Fire_Projectile_Type>Proj_Ship_Turbolaser_Green_Blue</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>2</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
+           <Fire_Range_Distance>2300.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+
+						<Fire_Inaccuracy_Distance> Fighter, 20.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 20.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 6.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 6.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SuperCapital, 1.0 </Fire_Inaccuracy_Distance>
+
+    </HardPoint>
+
+	<HardPoint Name="HP_Neutron_Lasers_Weapon02">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Tooltip_Text>TEXT_WEAPON_TURBOLASER_QUAD</Tooltip_Text>
+            <Health>160.0</Health>
+
+			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
+			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+
+
+            <Model_To_Attach>Turbo_02</Model_To_Attach>
+            <Attachment_Bone> Turbo_02 </Attachment_Bone>
+            <Collision_Mesh>Turbo_02</Collision_Mesh>
+            <Damage_Decal>HP_F-L_BLAST</Damage_Decal>
+            <Damage_Particles>R3</Damage_Particles>
+
+			<Death_Breakoff_Prop> </Death_Breakoff_Prop>
+
+            <Fire_Bone_A>Turbo_02</Fire_Bone_A>
+            <Fire_Bone_B>Turbo_02</Fire_Bone_B>
+            <Fire_Cone_Width>145</Fire_Cone_Width>
+            <Fire_Cone_Height>130.0</Fire_Cone_Height>
+           <Fire_Projectile_Type>Proj_Ship_Turbolaser_Green_Blue</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>2</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
+           <Fire_Range_Distance>2300.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+
+						<Fire_Inaccuracy_Distance> Fighter, 20.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 20.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 6.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 6.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SuperCapital, 1.0 </Fire_Inaccuracy_Distance>
+
+    </HardPoint>
+
+	<HardPoint Name="HP_Neutron_Lasers_Weapon03">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Tooltip_Text>TEXT_WEAPON_TURBOLASER_QUAD</Tooltip_Text>
+            <Health>160.0</Health>
+
+			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
+			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+
+
+            <Model_To_Attach>Turbo_03</Model_To_Attach>
+            <Attachment_Bone> Turbo_03 </Attachment_Bone>
+            <Collision_Mesh>Turbo_03</Collision_Mesh>
+            <Damage_Decal>HP_F-L_BLAST</Damage_Decal>
+            <Damage_Particles>R3</Damage_Particles>
+
+			<Death_Breakoff_Prop> </Death_Breakoff_Prop>
+
+            <Fire_Bone_A>Turbo_03</Fire_Bone_A>
+            <Fire_Bone_B>Turbo_03</Fire_Bone_B>
+            <Fire_Cone_Width>275</Fire_Cone_Width>
+            <Fire_Cone_Height>130.0</Fire_Cone_Height>
+           <Fire_Projectile_Type>Proj_Ship_Turbolaser_Green_Blue</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>2</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
+           <Fire_Range_Distance>2300.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+
+						<Fire_Inaccuracy_Distance> Fighter, 20.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 20.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 6.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 6.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SuperCapital, 1.0 </Fire_Inaccuracy_Distance>
+
+    </HardPoint>
+
+	<HardPoint Name="HP_Neutron_Star_Lasers_Weapon_Laser01">
+			 <Type> HARD_POINT_WEAPON_LASER </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
+            <Health>170</Health>
+
+            <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
+            <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+
+
+            <Model_To_Attach></Model_To_Attach>
+            <Collision_Mesh>Laser_01</Collision_Mesh>
+            <Damage_Decal>Laser_01</Damage_Decal>
+            <Damage_Particles>Laser_01</Damage_Particles>
+
+            <Death_Breakoff_Prop> </Death_Breakoff_Prop>
+
+            <Attachment_Bone>Laser_01</Attachment_Bone>
+
+            <Fire_Bone_A>Laser_01</Fire_Bone_A>
+            <Fire_Bone_B>Laser_01</Fire_Bone_B>
+            <Fire_Cone_Width>130</Fire_Cone_Width>
+            <Fire_Cone_Height>130.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Ship_Small_Laser_Cannon_Green_Blue</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2300.0</Fire_Range_Distance>
+            <Fire_SFXEvent>Unit_Empire_Ship_Laser_Fire</Fire_SFXEvent>
+
+
+			<Fire_Inaccuracy_Distance> Fighter, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 20.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SuperCapital, 20.0 </Fire_Inaccuracy_Distance>
+
+
+    </HardPoint>
+
+		<HardPoint Name="HP_Neutron_Star_Lasers_Weapon_Laser02">
+			 <Type> HARD_POINT_WEAPON_LASER </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
+            <Health>170</Health>
+
+            <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
+            <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+
+
+            <Model_To_Attach></Model_To_Attach>
+            <Collision_Mesh>Laser_02</Collision_Mesh>
+            <Damage_Decal>Laser_02</Damage_Decal>
+            <Damage_Particles>Laser_02</Damage_Particles>
+
+            <Death_Breakoff_Prop> </Death_Breakoff_Prop>
+
+            <Attachment_Bone>Laser_02</Attachment_Bone>
+
+            <Fire_Bone_A>Laser_02</Fire_Bone_A>
+            <Fire_Bone_B>Laser_02</Fire_Bone_B>
+            <Fire_Cone_Width>130</Fire_Cone_Width>
+            <Fire_Cone_Height>130.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Ship_Small_Laser_Cannon_Green_Blue</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2300.0</Fire_Range_Distance>
+            <Fire_SFXEvent>Unit_Empire_Ship_Laser_Fire</Fire_SFXEvent>
+
+
+			<Fire_Inaccuracy_Distance> Fighter, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 20.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SuperCapital, 20.0 </Fire_Inaccuracy_Distance>
+
+
+    </HardPoint>
 
 
 	<!-- Interdictor Cruiser Hard Points -->

@@ -421,7 +421,15 @@ GameObjectLibrary = {
                 ["Z95_HEADHUNTER_SQUADRON"] = {
                     ["DEFAULT"] = {
                         Reserve = 8,
-                        Initial = 4
+                        Initial = 4,
+						TechLevel = LessOrEqualTo(3)						
+                    }
+                },
+                ["TWIN_ION_ENGINE_STARFIGHTER_SQUADRON"] = {
+                    ["DEFAULT"] = {
+                        Reserve = 8,
+                        Initial = 4,
+						TechLevel = GreaterThan(3)						
                     }
                 },
                 ["BTLB_Y-WING_SQUADRON"] = {
@@ -1455,6 +1463,86 @@ GameObjectLibrary = {
                 }
             }
         },
+        ["BULWARK_I_Subfaction"] = {
+            Scripts = {
+                "MultiLayer",
+                "FighterSpawn"
+            },
+            Fighters = {
+                ["VULTURE_SQUADRON"] = {
+                    ["HOSTILE"] = {
+                        Reserve = 1,
+                        Initial = 1,
+                        TechLevel = LessOrEqualTo(2)
+                    },
+                    ["REBEL"] = {
+                        Reserve = 1,
+                        Initial = 1,
+                        TechLevel = LessOrEqualTo(2)
+                    },
+                    ["PIRATES"] = {
+                        Reserve = 1,
+                        Initial = 1
+                    },
+                    ["PENTASTAR"] = {
+                        Reserve = 1,
+                        Initial = 1
+                    },
+                    ["TERADOC"] = {
+                        Reserve = 1,
+                        Initial = 1
+                    },
+                    ["HUTTS"] = {
+                        Reserve = 1,
+                        Initial = 1,
+						TechLevel = LessOrEqualTo(2)
+                    }					
+                },
+                ["MANKVIM_SQUADRON"] = {
+                    ["REBEL"] = {
+                        Reserve = 1,
+                        Initial = 1,
+                        TechLevel = GreaterThan(2)
+                    },
+                    ["HOSTILE"] = {
+                        Reserve = 1,
+                        Initial = 1,
+                        TechLevel = GreaterThan(2)
+                    },
+                    ["HUTTS"] = {
+                        Reserve = 1,
+                        Initial = 1,
+                        TechLevel = GreaterThan(2)
+                    }					
+                },
+                ["HYENA_SQUADRON"] = {
+                    ["HOSTILE"] = {
+                        Reserve = 1,
+                        Initial = 1
+                    },
+                    ["REBEL"] = {
+                        Reserve = 1,
+                        Initial = 1
+                    },
+                    ["PIRATES"] = {
+                        Reserve = 1,
+                        Initial = 1
+                    },
+                    ["PENTASTAR"] = {
+                        Reserve = 1,
+                        Initial = 1
+                    },
+                    ["TERADOC"] = {
+                        Reserve = 1,
+                        Initial = 1
+                    },
+                    ["HUTTS"] = {
+                        Reserve = 1,
+                        Initial = 1
+                    }					
+                }
+            }
+        },		
         ["BULWARK_II"] = {
             Scripts = {
                 "MultiLayer",
@@ -1521,6 +1609,72 @@ GameObjectLibrary = {
                 }
             }
         },
+        ["BULWARK_II_Subfaction"] = {
+            Scripts = {
+                "MultiLayer",
+                "FighterSpawn"
+            },
+            Fighters = {
+                ["VULTURE_SQUADRON_DOUBLE"] = {
+                    ["REBEL"] = {
+                        Reserve = 1,
+                        Initial = 1,
+                        TechLevel = LessOrEqualTo(2)
+                    },
+                    ["PIRATES"] = {
+                        Reserve = 1,
+                        Initial = 1
+                    },
+                    ["PENTASTAR"] = {
+                        Reserve = 1,
+                        Initial = 1
+                    },
+                    ["TERADOC"] = {
+                        Reserve = 1,
+                        Initial = 1
+                    },
+                    ["HUTTS"] = {
+                        Reserve = 1,
+                        Initial = 1,
+						TechLevel = LessOrEqualTo(2)
+                    }					
+                },
+                ["MANKVIM_SQUADRON"] = {
+                    ["REBEL"] = {
+                        Reserve = 2,
+                        Initial = 2,
+                        TechLevel = GreaterThan(2)
+                    },
+                    ["HUTTS"] = {
+                        Reserve = 2,
+                        Initial = 2,
+                        TechLevel = GreaterThan(3)
+                    }					
+                },
+                ["HYENA_SQUADRON"] = {
+                    ["REBEL"] = {
+                        Reserve = 2,
+                        Initial = 2
+                    },
+                    ["PIRATES"] = {
+                        Reserve = 2,
+                        Initial = 2
+                    },
+                    ["PENTASTAR"] = {
+                        Reserve = 2,
+                        Initial = 2
+                    },
+                    ["TERADOC"] = {
+                        Reserve = 2,
+                        Initial = 2
+                    },
+                    ["HUTTS"] = {
+                        Reserve = 2,
+                        Initial = 2
+                    }					
+                }
+            }
+        },		
         ["GENERIC_PRAETOR"] = {
             Scripts = {
                 "MultiLayer",
@@ -1531,13 +1685,21 @@ GameObjectLibrary = {
                 ["TORRENT_SQUADRON"] = {
                     ["EMPIRE"] = {
                         Reserve = 2,
-                        Initial = 1
+                        Initial = 1,
+                        TechLevel = LessOrEqualTo(3)						
                     },
                     ["HOSTILE"] = {
                         Reserve = 2,
                         Initial = 1
                     }					
-                },			
+                },		
+                ["V-WING_SQUADRON"] = {
+                    ["EMPIRE"] = {
+                        Reserve = 2,
+                        Initial = 1,
+						TechLevel = GreaterThan(3)
+                    }
+                },				
                 ["ARC_170_SQUADRON"] = {
                     ["DEFAULT"] = {
                         Reserve = 2,
@@ -1547,17 +1709,37 @@ GameObjectLibrary = {
                 ["Z95_HEADHUNTER_SQUADRON"] = {
                     ["EMPIRE"] = {
                         Reserve = 2,
-                        Initial = 1
+                        Initial = 1,
+                        TechLevel = LessOrEqualTo(3)						
                     },
                     ["HOSTILE"] = {
                         Reserve = 2,
-                        Initial = 1
+                        Initial = 1,
+                        TechLevel = LessOrEqualTo(3)						
                     },
                     ["WARLORDS"] = {
                         Reserve = 4,
-                        Initial = 2
+                        Initial = 2,
+                        TechLevel = LessOrEqualTo(3)						
                     }					
                 },
+                ["TWIN_ION_ENGINE_STARFIGHTER_SQUADRON"] = {
+                    ["EMPIRE"] = {
+                        Reserve = 2,
+                        Initial = 1,
+						TechLevel = GreaterThan(3)
+                    },
+                    ["HOSTILE"] = {
+                        Reserve = 2,
+                        Initial = 1,
+                        TechLevel = LessOrEqualTo(3)						
+                    },
+                    ["WARLORDS"] = {
+                        Reserve = 4,
+                        Initial = 2,
+                        TechLevel = LessOrEqualTo(3)						
+                    }
+                },				
                 ["BTLB_Y-WING_SQUADRON"] = {
                     ["DEFAULT"] = {
                         Reserve = 2,

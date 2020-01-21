@@ -459,7 +459,7 @@
 
 	<SpaceUnit Name="Banjeer">
 		<Variant_Of_Existing_Type>Generic_Quaser</Variant_Of_Existing_Type>
-		<Space_FOW_Reveal_Range>700.0</Space_FOW_Reveal_Range>	
+		<Space_FOW_Reveal_Range>700.0</Space_FOW_Reveal_Range>
 
 		<Text_ID>TEXT_HERO_BANJEER</Text_ID>
 		<Lua_Script></Lua_Script>
@@ -600,6 +600,7 @@
 
 		<Shield_Points>1500</Shield_Points>
 		<Tactical_Health>1500</Tactical_Health>
+		<Space_FOW_Reveal_Range>700.0</Space_FOW_Reveal_Range>	
 		
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>1050</Tactical_Build_Cost_Multiplayer>

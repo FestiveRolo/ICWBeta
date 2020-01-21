@@ -180,8 +180,14 @@ function Respond_To_MinRange_Attacks(tf, unit)
 	min_range_attackers = {
 		"R_Ground_Turbolaser_Tower"
 		,"E_Ground_Turbolaser_Tower"
+		,"U_Ground_Turbolaser_Tower"
+		,"P_Ground_Turbolaser_Tower"
 		,"MPTL"
 		,"SPMAT_Walker"
+		,"J1_Cannon"
+		,"AV7"
+		,"Plasma_Mortar"
+		,"Secondary_Abandoned_Turbolaser_Tower"
 		}
 
 	deadly_enemy = FindDeadlyEnemy(unit)

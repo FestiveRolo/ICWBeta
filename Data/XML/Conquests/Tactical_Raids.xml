@@ -15,6 +15,11 @@
 <Event_Param1>0</Event_Param1>
 </Event>
 
+<Event Name="Minute_Elapsed">
+<Event_Type>STORY_ELAPSED</Event_Type>
+<Event_Param1>60</Event_Param1>
+</Event>
+
 <Event Name="Show_Screen_Text">
 		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
 			<Event_Param2>SHOW_SCREEN_TEXT</Event_Param2>

@@ -8,8 +8,8 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_MINE </Encyclopedia_Unit_Class>
 		<!--<Encyclopedia_Good_Against> Y-Wing Z-95_Headhunter_Rebel </Encyclopedia_Good_Against>-->
 		<!--<Encyclopedia_Vulnerable_To> Corellian_Corvette X-wing A-Wing </Encyclopedia_Vulnerable_To>-->
-		<Space_Model_Name>ev_TieFighter.ALO</Space_Model_Name>
-		<Scale_Factor>1.0</Scale_Factor>
+		<Space_Model_Name>W_interdictor_mine.ALO</Space_Model_Name>
+		<Scale_Factor>.90</Scale_Factor>
 		<Select_Box_Scale>70</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-1</Select_Box_Z_Adjust>
 

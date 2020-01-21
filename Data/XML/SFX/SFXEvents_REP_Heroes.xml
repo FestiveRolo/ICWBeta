@@ -61,6 +61,8 @@
 							Data\Audio\SFX\Units\republic_heros\Plo_Koon\move\m39.wav  
 							Data\Audio\SFX\Units\republic_heros\Plo_Koon\move\m40.wav  
 							Data\Audio\SFX\Units\republic_heros\Plo_Koon\move\m41.wav  
+							Data\Audio\SFX\Units\republic_heros\Plo_Koon\move\m42.wav  
+							Data\Audio\SFX\Units\republic_heros\Plo_Koon\move\m43.wav  
 					 </Samples>
 						  <Localize> Yes </Localize>
 						  <Play_Sequentially> No </Play_Sequentially>
@@ -102,6 +104,7 @@
 						Data\Audio\SFX\Units\republic_heros\Plo_Koon\select\s29.wav
 						Data\Audio\SFX\Units\republic_heros\Plo_Koon\select\s30.wav
 						Data\Audio\SFX\Units\republic_heros\Plo_Koon\select\s31.wav
+						Data\Audio\SFX\Units\republic_heros\Plo_Koon\select\s32.wav
 					  </Samples>
 						  <Localize> Yes </Localize>
 						  <Play_Sequentially> No </Play_Sequentially>
@@ -154,6 +157,8 @@
 							Data\Audio\SFX\Units\republic_heros\Plo_Koon\move\m39.wav  
 							Data\Audio\SFX\Units\republic_heros\Plo_Koon\move\m40.wav  
 							Data\Audio\SFX\Units\republic_heros\Plo_Koon\move\m41.wav  
+							Data\Audio\SFX\Units\republic_heros\Plo_Koon\move\m42.wav  
+							Data\Audio\SFX\Units\republic_heros\Plo_Koon\move\m43.wav  
 						  </Samples>
 						  <Localize> Yes </Localize>
 						  <Play_Sequentially> No </Play_Sequentially>
@@ -272,7 +277,9 @@
 							Data\Audio\SFX\Units\republic_heros\Plo_Koon\move\m38.wav  
 							Data\Audio\SFX\Units\republic_heros\Plo_Koon\move\m39.wav  
 							Data\Audio\SFX\Units\republic_heros\Plo_Koon\move\m40.wav  
-							Data\Audio\SFX\Units\republic_heros\Plo_Koon\move\m41.wav 
+							Data\Audio\SFX\Units\republic_heros\Plo_Koon\move\m41.wav
+							Data\Audio\SFX\Units\republic_heros\Plo_Koon\move\m42.wav  
+							Data\Audio\SFX\Units\republic_heros\Plo_Koon\move\m43.wav  							
 						  </Samples>
 						  <Play_Sequentially> No </Play_Sequentially>
 						  <Probability>60</Probability>
@@ -377,7 +384,7 @@
 						<Localize> Yes </Localize>
 						<Play_Sequentially> No </Play_Sequentially>
 							<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
-					<Overlap_Test> Unit_jedi_hero</Overlap_Test>
+
 			</SFXEvent>
 	
 			<SFXEvent Name="Unit_Health_Low_Plo_Koon">
@@ -396,7 +403,7 @@
 					<Localize> Yes </Localize>
 					<Play_Sequentially> No </Play_Sequentially>
 						<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
-					<Overlap_Test> Unit_jedi_hero</Overlap_Test>
+
 			</SFXEvent>
 
 			<SFXEvent Name="Unit_Die_Plo_Koon">
@@ -409,7 +416,7 @@
 					<Localize> Yes </Localize>
 					<Play_Sequentially> No </Play_Sequentially>
 					<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
-				<Overlap_Test> Unit_jedi_hero</Overlap_Test>
+
 			</SFXEvent>
 			
 			<SFXEvent Name="Unit_ability_Plo_Koon">
@@ -617,7 +624,7 @@
 						<Localize> Yes </Localize>
 						<Play_Sequentially> No </Play_Sequentially>
 							<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
-					<Overlap_Test> Unit_jedi_hero</Overlap_Test>
+
 			</SFXEvent>
 	
 			<SFXEvent Name="Unit_Health_Low_Aayla_Secura">
@@ -629,7 +636,7 @@
 					<Localize> Yes </Localize>
 					<Play_Sequentially> No </Play_Sequentially>
 						<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
-					<Overlap_Test> Unit_Admiral_Yularen</Overlap_Test>
+
 			</SFXEvent>
 
 			<SFXEvent Name="Unit_Die_Aayla_Secura">
@@ -643,7 +650,7 @@
 					<Localize> Yes </Localize>
 					<Play_Sequentially> No </Play_Sequentially>
 					<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
-				<Overlap_Test> Unit_Admiral_Yularen</Overlap_Test>
+
 			</SFXEvent>
 			
 			<SFXEvent Name="Unit_ability_Aayla_Secura">
@@ -1078,7 +1085,7 @@
 						<Localize> Yes </Localize>
 						<Play_Sequentially> No </Play_Sequentially>
 							<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
-					<Overlap_Test> Unit_jedi_hero</Overlap_Test>
+
 			</SFXEvent>
 	
 			<SFXEvent Name="Unit_Health_Low_Mace_Windu">
@@ -1095,7 +1102,7 @@
 					<Localize> Yes </Localize>
 					<Play_Sequentially> No </Play_Sequentially>
 						<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
-					<Overlap_Test> Unit_jedi_hero</Overlap_Test>
+
 			</SFXEvent>
 
 			<SFXEvent Name="Unit_Die_Mace_Windu">
@@ -1108,7 +1115,7 @@
 					<Localize> Yes </Localize>
 					<Play_Sequentially> No </Play_Sequentially>
 					<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
-				<Overlap_Test> Unit_jedi_hero</Overlap_Test>
+
 			</SFXEvent>
 			
 			<SFXEvent Name="Unit_ability_Mace_Windu">
@@ -1797,7 +1804,7 @@
 						<Localize> Yes </Localize>
 						<Play_Sequentially> No </Play_Sequentially>
 							<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
-					<Overlap_Test> Unit_jedi_hero</Overlap_Test>
+
 			</SFXEvent>
 	
 			<SFXEvent Name="Unit_Health_Low_Kit_Fisto">
@@ -1820,7 +1827,7 @@
 					<Localize> Yes </Localize>
 					<Play_Sequentially> No </Play_Sequentially>
 						<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
-					<Overlap_Test> Unit_jedi_hero</Overlap_Test>
+
 			</SFXEvent>
 
 			<SFXEvent Name="Unit_Die_Kit_Fisto">
@@ -1833,7 +1840,7 @@
 					<Localize> Yes </Localize>
 					<Play_Sequentially> No </Play_Sequentially>
 					<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
-				<Overlap_Test> Unit_jedi_hero</Overlap_Test>
+
 			</SFXEvent>
 			
 			<SFXEvent Name="Unit_ability_Kit_Fisto">
@@ -1970,11 +1977,7 @@
 			 <SFXEvent Name="Unit_Health_Critical_Shaak_Ti">
 					<Use_Preset>Preset_UR</Use_Preset>
 					<Samples>
-						Data\Audio\SFX\Units\republic_heros\Anakin_Skywalker\critical_health\C1.wav
-						Data\Audio\SFX\Units\republic_heros\Anakin_Skywalker\critical_health\C2.wav
-						Data\Audio\SFX\Units\republic_heros\Anakin_Skywalker\critical_health\C3.wav
-						Data\Audio\SFX\Units\republic_heros\Anakin_Skywalker\critical_health\C4.wav
-						Data\Audio\SFX\Units\republic_heros\Anakin_Skywalker\critical_health\C5.wav
+						
 					</Samples>
 						<Localize> Yes </Localize>
 						<Play_Sequentially> No </Play_Sequentially>
@@ -1985,11 +1988,7 @@
 			<SFXEvent Name="Unit_Health_Low_Shaak_Ti">
 				<Use_Preset>Preset_UR</Use_Preset>
 				<Samples>
-						Data\Audio\SFX\Units\republic_heros\Anakin_Skywalker\critical_health\C1.wav
-						Data\Audio\SFX\Units\republic_heros\Anakin_Skywalker\critical_health\C2.wav
-						Data\Audio\SFX\Units\republic_heros\Anakin_Skywalker\critical_health\C3.wav
-						Data\Audio\SFX\Units\republic_heros\Anakin_Skywalker\critical_health\C4.wav
-						Data\Audio\SFX\Units\republic_heros\Anakin_Skywalker\critical_health\C5.wav
+						
 				</Samples>
 					<Localize> Yes </Localize>
 					<Play_Sequentially> No </Play_Sequentially>
@@ -2000,8 +1999,7 @@
 			<SFXEvent Name="Unit_Die_Shaak_Ti">
 				<Use_Preset>Preset_UR</Use_Preset>
 				<Samples>
-					Data\Audio\SFX\Units\republic_heros\Anakin_Skywalker\death\D1.wav
-					Data\Audio\SFX\Units\republic_heros\Anakin_Skywalker\death\D2.wav
+					
 				</Samples>
 					<Localize> Yes </Localize>
 					<Play_Sequentially> No </Play_Sequentially>
@@ -2012,9 +2010,7 @@
 			<SFXEvent Name="Unit_ability_Shaak_Ti">
 				<Use_Preset>Preset_UR</Use_Preset>
 				<Samples>
-					Data\Audio\SFX\Units\republic_heros\Anakin_Skywalker\ability\crush1.wav
-					Data\Audio\SFX\Units\republic_heros\Anakin_Skywalker\ability\crush2.wav
-					Data\Audio\SFX\Units\republic_heros\Anakin_Skywalker\ability\crush3.wav
+					
 				</Samples>
 					<Localize> Yes </Localize>
 					<Play_Sequentially> No </Play_Sequentially>
@@ -2567,7 +2563,7 @@
 						<Localize> No </Localize>
 						<Play_Sequentially> No </Play_Sequentially>
 							<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
-					<Overlap_Test> Unit_jedi_hero</Overlap_Test>
+					
 			</SFXEvent>
 	
 			<SFXEvent Name="Unit_Health_Low_ObiWan">
@@ -2591,7 +2587,7 @@
 					<Localize> Yes </Localize>
 					<Play_Sequentially> No </Play_Sequentially>
 						<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
-					<Overlap_Test> Unit_jedi_hero</Overlap_Test>
+					
 			</SFXEvent>
 
 			<SFXEvent Name="Unit_Die_ObiWan">
@@ -2606,7 +2602,7 @@
 					<Localize> Yes </Localize>
 					<Play_Sequentially> No </Play_Sequentially>
 					<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
-				<Overlap_Test> Unit_jedi_hero</Overlap_Test>
+			
 			</SFXEvent>
 			
 			<SFXEvent Name="Unit_ability_ObiWan">
@@ -2691,7 +2687,7 @@
 						Data\Audio\SFX\Units\republic_heros\Anakin_Skywalker\move\M46.wav
 					 </Samples>
 						 <Localize> Yes </Localize>
-					<Play_Sequentially> Yes </Play_Sequentially>
+					<Play_Sequentially> No </Play_Sequentially>
 				<Text_ID></Text_ID>
 			<Overlap_Test> Unit_jedi_hero </Overlap_Test>
 		</SFXEvent>
@@ -2738,7 +2734,7 @@
 						Data\Audio\SFX\Units\republic_heros\Anakin_Skywalker\select\S35.wav
 					  </Samples>
 						  <Localize> Yes </Localize>
-						  <Play_Sequentially> Yes </Play_Sequentially>
+						  <Play_Sequentially> No </Play_Sequentially>
 						  <Text_ID></Text_ID>
 					  <Overlap_Test> Unit_jedi_hero </Overlap_Test>
 				</SFXEvent>
@@ -2797,7 +2793,7 @@
 						Data\Audio\SFX\Units\republic_heros\Anakin_Skywalker\move\M46.wav
 						  </Samples>
 						  <Localize> Yes </Localize>
-						  <Play_Sequentially> Yes </Play_Sequentially>
+						  <Play_Sequentially> No </Play_Sequentially>
 						 						<Text_ID></Text_ID>
 					  <Overlap_Test> Unit_jedi_hero </Overlap_Test>
 				</SFXEvent>
@@ -2874,7 +2870,7 @@
 							
 						  </Samples>
 						  <Localize> Yes </Localize>
-						  <Play_Sequentially> Yes </Play_Sequentially>
+						  <Play_Sequentially> No </Play_Sequentially>
 						<Text_ID></Text_ID>
 					  <Overlap_Test> Unit_jedi_hero </Overlap_Test>
 				</SFXEvent>
@@ -2932,7 +2928,7 @@
 						Data\Audio\SFX\Units\republic_heros\Anakin_Skywalker\move\M46.wav
 						  </Samples>
 						  <Localize> Yes </Localize>
-						  <Play_Sequentially> Yes </Play_Sequentially>
+						  <Play_Sequentially> No </Play_Sequentially>
 						  <Probability>60</Probability>
 						<Text_ID></Text_ID>
 					  <Overlap_Test> Unit_jedi_hero </Overlap_Test>
@@ -3008,7 +3004,7 @@
 							Data\Audio\SFX\Units\republic_heros\Anakin_Skywalker\attack\A65.wav
 						  </Samples>
 						  <Localize> Yes </Localize>
-						  <Play_Sequentially> Yes </Play_Sequentially>
+						  <Play_Sequentially> No </Play_Sequentially>
 						  <Probability>60</Probability>
 						<Text_ID></Text_ID>
 					  <Overlap_Test> Unit_jedi_hero </Overlap_Test>
@@ -3057,7 +3053,7 @@
 						Data\Audio\SFX\Units\republic_heros\Anakin_Skywalker\guard\sand.wav
 					  </Samples>
 						  <Localize> Yes </Localize>
-						  <Play_Sequentially> Yes </Play_Sequentially>
+						  <Play_Sequentially> No </Play_Sequentially>
 							<Text_ID></Text_ID>
 					  <Overlap_Test> Unit_jedi_hero </Overlap_Test>
 				</SFXEvent>
@@ -3075,7 +3071,7 @@
 						<Localize> Yes </Localize>
 						<Play_Sequentially> No </Play_Sequentially>
 							<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
-					<Overlap_Test> Unit_jedi_hero </Overlap_Test>
+
 			</SFXEvent>
 	
 			<SFXEvent Name="Unit_Health_Low_Anakin_Skywalker">
@@ -3090,7 +3086,7 @@
 					<Localize> Yes </Localize>
 					<Play_Sequentially> No </Play_Sequentially>
 						<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
-					<Overlap_Test> Unit_jedi_hero </Overlap_Test>
+
 			</SFXEvent>
 
 			<SFXEvent Name="Unit_Die_Anakin_Skywalker">
@@ -3102,7 +3098,7 @@
 					<Localize> Yes </Localize>
 					<Play_Sequentially> No </Play_Sequentially>
 					<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
-				<Overlap_Test> Unit_jedi_hero </Overlap_Test>
+
 			</SFXEvent>
 			
 			<SFXEvent Name="Unit_ability_crush_Anakin_Skywalker">
@@ -3113,9 +3109,9 @@
 					Data\Audio\SFX\Units\republic_heros\Anakin_Skywalker\ability\crush3.wav
 				</Samples>
 					<Localize> Yes </Localize>
-					<Play_Sequentially> No </Play_Sequentially>
+					<Play_Sequentially> Yes </Play_Sequentially>
 					<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
-				<Overlap_Test> Unit_jedi_hero </Overlap_Test>
+
 			</SFXEvent>
 
 			<SFXEvent Name="Unit_ability_push_Anakin_Skywalker">
@@ -3125,7 +3121,7 @@
 					Data\Audio\SFX\Units\republic_heros\Anakin_Skywalker\ability\push2.wav
 				</Samples>
 					<Localize> Yes </Localize>
-					<Play_Sequentially> No </Play_Sequentially>
+					<Play_Sequentially> Yes </Play_Sequentially>
 					<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
 				<Overlap_Test> Unit_jedi_hero </Overlap_Test>
 			</SFXEvent>

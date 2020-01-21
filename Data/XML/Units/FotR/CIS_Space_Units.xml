@@ -186,7 +186,7 @@
 
 		<Space_Model_Name>CIS_Bulwark.alo</Space_Model_Name>
 
-		<Affiliation>Rebel, Hutts, Teradoc</Affiliation>
+		<Affiliation>Rebel</Affiliation>
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Slice_Cost_Credits>1400</Slice_Cost_Credits>
@@ -209,6 +209,20 @@
 		<Reserve_Spawned_Units_Tech_4>Hyena_Squadron, 1</Reserve_Spawned_Units_Tech_4>
 		<Reserve_Spawned_Units_Tech_4>Mankvim_Squadron, 1</Reserve_Spawned_Units_Tech_4>
 
+	</SpaceUnit>
+
+	<SpaceUnit Name="Bulwark_I_Subfaction">
+		<Variant_Of_Existing_Type>Bulwark_I</Variant_Of_Existing_Type>
+		<Population_Value>11</Population_Value>
+
+		<Space_Model_Name>CSA_Bulwark.ALO</Space_Model_Name>
+
+		<Affiliation>Hutts, Teradoc</Affiliation>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+		<Tech_Level>4</Tech_Level>
+
+		<Lua_Script>GenericGameObject</Lua_Script>
 	</SpaceUnit>
 
 	<SpaceUnit Name="Bulwark_II">
@@ -250,7 +264,7 @@
 		<Energy_Capacity>3000</Energy_Capacity>
 		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
 
-		<Affiliation>Rebel, Hutts, Teradoc</Affiliation>
+		<Affiliation>Rebel</Affiliation>
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Slice_Cost_Credits>1400</Slice_Cost_Credits>
@@ -419,6 +433,19 @@
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>15</Population_Value>
+	</SpaceUnit>
+
+	<SpaceUnit Name="Bulwark_II_Subfaction">
+		<Variant_Of_Existing_Type>Bulwark_II</Variant_Of_Existing_Type>
+
+		<Space_Model_Name>CSA_Bulwark.ALO</Space_Model_Name>
+
+		<Affiliation>Hutts, Teradoc</Affiliation>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+		<Tech_Level>4</Tech_Level>
+
+		<Lua_Script>GenericGameObject</Lua_Script>
 	</SpaceUnit>
 
 	<SpaceUnit Name="Recusant">
@@ -1304,7 +1331,7 @@
 		<!--<Encyclopedia_Vulnerable_To> Y-wing Calamari_Cruiser MC_85 </Encyclopedia_Vulnerable_To>-->
 		<GUI_Row> 1 </GUI_Row>
 		<Space_Model_Name>cis_supplyship.ALO</Space_Model_Name>
-		<Select_Box_Scale>700</Select_Box_Scale>
+		<Select_Box_Scale>1200</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 		<Mass>0.995</Mass>
 		<Scale_Factor>0.55</Scale_Factor>
@@ -1361,8 +1388,8 @@
 		<SpaceBehavior>SPAWN_SQUADRON, ABILITY_COUNTDOWN, BARRAGE, SIMPLE_SPACE_LOCOMOTOR, TARGETING, POWERED, SHIELDED, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		
-		<Starting_Spawned_Units_Tech_0>Interdiction_Minefield, 1</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Interdiction_Minefield, 5</Reserve_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Interdiction_Minefield, 3</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Interdiction_Minefield, 9</Reserve_Spawned_Units_Tech_0>
 			
 		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
 
@@ -1467,7 +1494,7 @@
 			
 			<Force_Healing_Ability Name="Fleet_Tender_Facility_Healing">
 				<Activation_Style>Space_Automatic</Activation_Style>
-				<Heal_Range>750.0</Heal_Range>
+				<Heal_Range>900.0</Heal_Range>
 				<Heal_Percent> 0.05 </Heal_Percent>
                 <Blob_Color>0, 255, 0, 255</Blob_Color>
 				<Heal_Interval_In_Secs>2.0</Heal_Interval_In_Secs>

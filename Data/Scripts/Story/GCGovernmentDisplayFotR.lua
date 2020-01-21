@@ -67,8 +67,7 @@ function Story_Mode_Service()
             }
 
             for _, faction in pairs(liveFactionTable) do
-                numPlanets = EvaluatePerception("Planet_Ownership", faction)
-                if numPlanets > 0 then
+
                     government_display_event.Add_Dialog_Text(CONSTANTS.ALL_FACTION_TEXTS[faction.Get_Faction_Name()])
                     government_display_event.Add_Dialog_Text("STAT_PLANET_COUNT", numPlanets)
                     if faction == Find_Player("Teradoc") then
@@ -80,7 +79,7 @@ function Story_Mode_Service()
                     elseif faction == Find_Player("Pentastar") then
                         government_display_event.Add_Dialog_Text("TEXT_GOVERNMENT_CIS_APPROVAL", GlobalValue.Get("IGBCApprovalRating"))
                     end
-                end
+
             end
           
         end

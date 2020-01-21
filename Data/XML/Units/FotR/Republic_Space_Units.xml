@@ -496,11 +496,21 @@
 		<Starting_Spawned_Units_Tech_0>ARC_170_Squadron, 1</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>Torrent_Squadron, 1</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>BTLB_Y-Wing_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_4>Twin_Ion_Engine_Starfighter_Squadron, 1</Starting_Spawned_Units_Tech_4>
+		<Starting_Spawned_Units_Tech_4>ARC_170_Squadron, 1</Starting_Spawned_Units_Tech_4>
+		<Starting_Spawned_Units_Tech_4>V-Wing_Squadron, 1</Starting_Spawned_Units_Tech_4>
+		<Starting_Spawned_Units_Tech_4>BTLB_Y-Wing_Squadron, 1</Starting_Spawned_Units_Tech_4>
+
 		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
+
 		<Reserve_Spawned_Units_Tech_0>Z95_HEADHUNTER_SQUADRON, 2</Reserve_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>ARC_170_Squadron, 2</Reserve_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Torrent_Squadron, 2</Reserve_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>BTLB_Y-Wing_Squadron, 2</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_4>Twin_Ion_Engine_Starfighter_Squadron, 2</Reserve_Spawned_Units_Tech_4>
+		<Reserve_Spawned_Units_Tech_4>ARC_170_Squadron, 2</Reserve_Spawned_Units_Tech_4>
+		<Reserve_Spawned_Units_Tech_4>V-Wing_Squadron, 2</Reserve_Spawned_Units_Tech_4>
+		<Reserve_Spawned_Units_Tech_4>BTLB_Y-Wing_Squadron, 2</Reserve_Spawned_Units_Tech_4>
 
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Large_Explosion_Space_Empire</Death_Explosions>
@@ -979,7 +989,7 @@
 
 
 		<Starting_Spawned_Units_Tech_0>Interdiction_Minefield, 1</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Interdiction_Minefield, 5</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Interdiction_Minefield, 2</Reserve_Spawned_Units_Tech_0>
 			
 		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
 
@@ -1281,6 +1291,18 @@
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Special_Structures>DUMMY_CHIEFOFSTATE_MOTHMA, Non_Capital_Category_Dummy</Required_Special_Structures>
 		<Required_Planets />
+
+		<HardPoints>
+			HP_Neutron_Star_Lasers_Weapon_Laser02,
+			HP_Neutron_Star_Lasers_Weapon_Laser01,
+			HP_Neutron_Star_Engines,
+			HP_Neutron_Star_Hangar,
+			HP_Neutron_Weapon_Ion01,
+			HP_Neutron_Weapon_Ion02,
+			HP_Neutron_Lasers_Weapon01,
+			HP_Neutron_Lasers_Weapon02,
+			HP_Neutron_Lasers_Weapon03,
+		</HardPoints>
 
 		<Starting_Spawned_Units_Tech_0>ARC_170_Squadron, 1</Starting_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
@@ -2056,9 +2078,13 @@
 
 		<Starting_Spawned_Units_Tech_0>Z95_Headhunter_Squadron, 4</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>BTLB_Y-WING_SQUADRON, 1</Starting_Spawned_Units_Tech_0>
-
 		<Reserve_Spawned_Units_Tech_0>Z95_Headhunter_Squadron, 8</Reserve_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>BTLB_Y-WING_SQUADRON, 2</Reserve_Spawned_Units_Tech_0>
+
+		<Starting_Spawned_Units_Tech_4>Twin_Ion_Engine_Starfighter_Squadron, 4</Starting_Spawned_Units_Tech_4>
+		<Starting_Spawned_Units_Tech_4>BTLB_Y-WING_SQUADRON, 1</Starting_Spawned_Units_Tech_4>
+		<Reserve_Spawned_Units_Tech_4>Twin_Ion_Engine_Starfighter_Squadron, 8</Reserve_Spawned_Units_Tech_4>
+		<Reserve_Spawned_Units_Tech_4>BTLB_Y-WING_SQUADRON, 2</Reserve_Spawned_Units_Tech_4>
 		
 		<SFXEvent_Select>Unit_Select_rep_Invincible</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_rep_Invincible</SFXEvent_Move>

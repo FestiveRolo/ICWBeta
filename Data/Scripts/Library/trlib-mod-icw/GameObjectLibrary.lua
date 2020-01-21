@@ -2291,22 +2291,11 @@ GameObjectLibrary = {
                 },
                 ["SCIMMY_SQUADRON"]={
                     ["EMPIRE"] = {
-                        Reserve=0,
+                        Reserve=1,
                         Initial=1,
                         TechLevel=EqualTo(2)
                     }
-                },
-                ["TIE_BOMBER_SQUADRON"]={
-                    ["EMPIRE"] = {
-                        Reserve=0,
-                        Initial=1,
-                        TechLevel=IsOneOf({1,3,4,5})
-                    },
-					["YEVETHA"] = {
-                        Reserve=0,
-                        Initial=1
-                    }
-                },				
+                },			
                 ["TIE_DROID_SQUADRON"]={
                     ["EMPIRE"] = {
                         Reserve=1,
@@ -2325,13 +2314,7 @@ GameObjectLibrary = {
                         Reserve=1,
                         Initial=1
                     }
-                },
-                ["BTLB_Y-WING_SQUADRON"]={
-                    ["CORPORATE_SECTOR"] = {
-                        Reserve=0,
-                        Initial=1
-                    }
-                },				
+                },	
                 ["TRIFOIL_SQUADRON"]={
                     ["YEVETHA"] = {
                         Reserve=1,
@@ -2346,7 +2329,7 @@ GameObjectLibrary = {
 					["EMPIRE"] = {
                         Reserve=1,
                         Initial=1,
-                        TechLevel=IsOneOf({2,4,5})
+                        TechLevel=GreaterThan(3)
                     }
                 }
             }
@@ -2969,22 +2952,11 @@ GameObjectLibrary = {
                 },
                 ["SCIMMY_SQUADRON"]={
                     ["EMPIRE"] = {
-                        Reserve=0,
+                        Reserve=1,
                         Initial=1,
                         TechLevel=EqualTo(2)
                     }
-                },
-                ["TIE_BOMBER_SQUADRON"]={
-                    ["EMPIRE"] = {
-                        Reserve=0,
-                        Initial=1,
-                        TechLevel=IsOneOf({1,3,4,5})
-                    },
-					["YEVETHA"] = {
-                        Reserve=0,
-                        Initial=1
-                    }
-                },				
+                },			
                 ["TIE_DROID_SQUADRON"]={
                     ["EMPIRE"] = {
                         Reserve=1,
@@ -3003,13 +2975,7 @@ GameObjectLibrary = {
                         Reserve=1,
                         Initial=1
                     }
-                },
-                ["BTLB_Y-WING_SQUADRON"]={
-                    ["CORPORATE_SECTOR"] = {
-                        Reserve=0,
-                        Initial=1
-                    }
-                },				
+                },		
                 ["TRIFOIL_SQUADRON"]={
                     ["YEVETHA"] = {
                         Reserve=1,
@@ -3024,7 +2990,7 @@ GameObjectLibrary = {
 					["EMPIRE"] = {
                         Reserve=1,
                         Initial=1,
-                        TechLevel=IsOneOf({2,4,5})
+                        TechLevel=GreaterThan(3)
                     }
                 }
             }
@@ -3435,22 +3401,11 @@ GameObjectLibrary = {
                 },
                 ["SCIMMY_SQUADRON"]={
                     ["EMPIRE"] = {
-                        Reserve=0,
+                        Reserve=1,
                         Initial=1,
                         TechLevel=EqualTo(2)
                     }
-                },
-                ["TIE_BOMBER_SQUADRON"]={
-                    ["EMPIRE"] = {
-                        Reserve=0,
-                        Initial=1,
-                        TechLevel=IsOneOf({1,3,4,5})
-                    },
-					["YEVETHA"] = {
-                        Reserve=0,
-                        Initial=1
-                    }
-                },				
+                },		
                 ["TIE_DROID_SQUADRON"]={
                     ["EMPIRE"] = {
                         Reserve=1,
@@ -3469,13 +3424,7 @@ GameObjectLibrary = {
                         Reserve=1,
                         Initial=1
                     }
-                },
-                ["BTLB_Y-WING_SQUADRON"]={
-                    ["CORPORATE_SECTOR"] = {
-                        Reserve=0,
-                        Initial=1
-                    }
-                },				
+                },			
                 ["TRIFOIL_SQUADRON"]={
                     ["YEVETHA"] = {
                         Reserve=1,
@@ -3490,7 +3439,7 @@ GameObjectLibrary = {
 					["EMPIRE"] = {
                         Reserve=1,
                         Initial=1,
-                        TechLevel=IsOneOf({2,4,5})
+                        TechLevel=GreaterThan(3)
                     }
                 }
             }

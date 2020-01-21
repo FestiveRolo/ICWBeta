@@ -2054,7 +2054,7 @@
 
 	</UniqueUnit>
 	
-		<UniqueUnit Name="Screed_Arlionne">
+	<UniqueUnit Name="Screed_Arlionne">
 		<Variant_Of_Existing_Type>Generic_Victory_Destroyer</Variant_Of_Existing_Type>
 		<Icon_Name>i_button_screed_rep.tga</Icon_Name>
 		<Prevents_Story_Campaign_Autoresolve>yes</Prevents_Story_Campaign_Autoresolve>
@@ -2105,7 +2105,7 @@
 
 	</UniqueUnit>
 	
-			<UniqueUnit Name="Dodonna_Ardent">
+	<UniqueUnit Name="Dodonna_Ardent">
 		<Variant_Of_Existing_Type>Generic_Victory_Destroyer</Variant_Of_Existing_Type>
 		<Icon_Name>i_button_dodonna_rep.tga</Icon_Name>
 		<Prevents_Story_Campaign_Autoresolve>yes</Prevents_Story_Campaign_Autoresolve>

@@ -119,7 +119,7 @@
     </MusicEvent>
 
 	<MusicEvent Name="Galactic_Map_Empire_Music_Event">
-		<Files> fallen_order.mp3, your_father_would_be_proud.mp3, Darth_Vader.mp3, ESB_The_Imperial_Probe.mp3, ROTJ_Approaching_The_Death_Star.mp3, ROTJ_Emperors_Throne_Room.mp3, ANH_Imperial_Attack_2.mp3, ANH_The_Tractor_Beam.mp3 </Files>
+		<Files> fallen_order.mp3, your_father_would_be_proud.mp3, Darth_Vader.mp3, Delta_Squad.mp3, ESB_The_Imperial_Probe.mp3, ROTJ_Approaching_The_Death_Star.mp3, ROTJ_Emperors_Throne_Room.mp3, ANH_Imperial_Attack_2.mp3, ANH_The_Tractor_Beam.mp3 </Files>
         <Volume_Percent>60</Volume_Percent>
         <Fade_In_Seconds>2.0</Fade_In_Seconds>
         <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
@@ -261,7 +261,7 @@
     </MusicEvent>
 
 	<MusicEvent Name="Urban_Land_Rebel_Ambient_Music_Event">
-        <Files> R_Anakin_and_Group_To_Coruscant.MP3, E_The_Senate.MP3 </Files>
+        <Files> Battle_Of_Christophsis.mp3, R_Anakin_and_Group_To_Coruscant.MP3, E_The_Senate.MP3 </Files>
         <Volume_Percent>55</Volume_Percent>
         <Fade_In_Seconds>2.0</Fade_In_Seconds>
         <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>

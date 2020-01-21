@@ -852,13 +852,8 @@
 			  Data\Audio\SFX\hyperspace\Hyperspace_4.wav
 			  Data\Audio\SFX\hyperspace\Hyperspace_5.wav
 			  Data\Audio\SFX\hyperspace\Hyperspace_6.wav
-			  Data\Audio\SFX\hyperspace\Hyperspace_10.wav
-			  Data\Audio\SFX\hyperspace\Hyperspace_11.wav
-			  Data\Audio\SFX\hyperspace\Hyperspace_12.wav
-			  Data\Audio\SFX\hyperspace\Hyperspace_13.wav
 			  Data\Audio\SFX\hyperspace\Hyperspace_7.wav
 			  Data\Audio\SFX\hyperspace\Hyperspace_8.wav
-			  Data\Audio\SFX\hyperspace\Hyperspace_1.wav
 			  Data\Audio\SFX\hyperspace\Hyperspace_9.wav
 			  Data\Audio\SFX\hyperspace\Hyperspace_10.wav
 			  Data\Audio\SFX\hyperspace\Hyperspace_11.wav
@@ -866,7 +861,11 @@
 			  Data\Audio\SFX\hyperspace\Hyperspace_13.wav
 			  Data\Audio\SFX\hyperspace\Hyperspace_14.wav
 			  Data\Audio\SFX\hyperspace\Hyperspace_15.wav
-			  Data\Audio\SFX\hyperspace\Hyperspace_5.wav
+			  Data\Audio\SFX\hyperspace\Hyperspace_16.wav
+			  Data\Audio\SFX\hyperspace\Hyperspace_17.wav
+			  Data\Audio\SFX\hyperspace\Hyperspace_18.wav
+			  Data\Audio\SFX\hyperspace\Hyperspace_19.wav
+
 			 
 			  </Samples>
 			  <Min_Volume>100</Min_Volume>

@@ -57,7 +57,7 @@ function Spawn_At_All_Planets_CW()
 					,{Find_Object_Type("Arquitens"), 3, "Space"}
 					,{Find_Object_Type("Corellian_Corvette"), 5, "Space"}
 					,{Find_Object_Type("Corellian_Gunboat"), 5, "Space"}
-					,{Find_Object_Type("Clonetrooper_Phase_One_Team"), 5, "Land"}
+					,{Find_Object_Type("PDF_Soldier_Team"), 5, "Land"}
 					,{Find_Object_Type("Imperial_ATPT_Squad"), 2, "Land"}
 					,{Find_Object_Type("Speeder_Bike_Squad"), 4, "Land"}
 					,{Find_Object_Type("Imperial_IFTX_Group"), 2, "Land"}

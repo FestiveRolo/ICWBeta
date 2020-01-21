@@ -20,6 +20,7 @@
 	<Lua_Script>GCGovernmentDisplay</Lua_Script>
 	<Active_Plot>GCGovernmentDisplay.xml</Active_Plot>
 	
+	
 	<Lua_Script>GCUtilityDetectCancels</Lua_Script>
 	<Active_Plot>Conquests\Filter_Force_Click.xml</Active_Plot>
 	<Active_Plot>Conquests\Documentation.xml</Active_Plot>

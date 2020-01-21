@@ -161,7 +161,7 @@
 	
 	<Event Name="Ratchet_Up">
 		<Event_Type>STORY_ELAPSED</Event_Type>
-		<Event_Param1>300</Event_Param1>
+		<Event_Param1>60</Event_Param1>
 		<Prereq>Start_AI</Prereq>
 	</Event>
 	

@@ -10,7 +10,10 @@ rename HardPointDataFilesICW.xml HardPointDataFiles.xml
 rename FactionFilesICW.xml FactionFiles.xml
 rename TradeRouteLines.xml TradeRouteLinesFotR.xml
 rename TradeRouteLinesICW.xml TradeRouteLines.xml
-cd ..\Resources\Guidialog
+cd Conquests
+rename InvadingFleet_Plot_File.xml InvadingFleet_Plot_File_FotR.xml
+rename InvadingFleet_Plot_File_ICW.xml InvadingFleet_Plot_File.xml
+cd ..\..\Resources\Guidialog
 rename Guidialogs.rc Guidialogs_FOTR.rc
 rename Guidialogs_ICW.rc Guidialogs.rc
 REM cd ..\Scripts\Library

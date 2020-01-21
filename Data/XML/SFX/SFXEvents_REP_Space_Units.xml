@@ -2520,5 +2520,1046 @@
 							<Text_ID></Text_ID>
 					  <Overlap_Test> Unit_rep_SD </Overlap_Test>
 				</SFXEvent>	
+				
+				
+				
+				
+				
+				<!-- Republic Fighters Arc / V-90  -->
+			
+			
+
+			<SFXEvent Name="Unit_Complete_rep_fighter">
+			<Use_Preset>Preset_UR</Use_Preset>
+				<Samples>
+					Data\Audio\SFX\space_units\REP_fighter\Select\S6.wav
+				</Samples>
+					<Localize> Yes </Localize>
+					<Play_Sequentially> Yes </Play_Sequentially>
+					<Text_ID></Text_ID>
+					<Overlap_Test> Unit_rep_fighter </Overlap_Test>
+				</SFXEvent>
+				
+				
+				
+		<SFXEvent Name="Unit_hunt_rep_fighter">
+			<Use_Preset>Preset_UR</Use_Preset>
+				<Samples>
+					Data\Audio\SFX\space_units\REP_fighter\ability\hunt.wav
+				</Samples>
+					<Localize> Yes </Localize>
+					<Play_Sequentially> Yes </Play_Sequentially>
+					<Text_ID></Text_ID>
+				</SFXEvent>
+				
+				
+		<SFXEvent Name="Unit_jammer_rep_fighter">
+			<Use_Preset>Preset_UR</Use_Preset>
+				<Samples>
+					Data\Audio\SFX\space_units\REP_fighter\ability\jammer.wav
+				</Samples>
+					<Localize> Yes </Localize>
+					<Play_Sequentially> Yes </Play_Sequentially>
+					<Text_ID></Text_ID>
+				</SFXEvent>
+		
+		
+		<SFXEvent Name="Unit_Fleet_Move_rep_fighter">
+					  <Use_Preset>Preset_UR</Use_Preset>
+					  <Samples>
+						Data\Audio\SFX\space_units\REP_fighter\Move\M1.wav
+						Data\Audio\SFX\space_units\REP_fighter\Move\M2.wav
+						Data\Audio\SFX\space_units\REP_fighter\Move\M3.wav
+						Data\Audio\SFX\space_units\REP_fighter\Move\M4.wav
+						Data\Audio\SFX\space_units\REP_fighter\Move\M5.wav
+						Data\Audio\SFX\space_units\REP_fighter\Move\M6.wav
+						Data\Audio\SFX\space_units\REP_fighter\Move\M7.wav
+						Data\Audio\SFX\space_units\REP_fighter\Move\M8.wav
+						Data\Audio\SFX\space_units\REP_fighter\Move\M9.wav
+						Data\Audio\SFX\space_units\REP_fighter\Move\M10.wav
+						Data\Audio\SFX\space_units\REP_fighter\Move\M11.wav
+						Data\Audio\SFX\space_units\REP_fighter\Move\M12.wav
+						Data\Audio\SFX\space_units\REP_fighter\Move\M13.wav
+						Data\Audio\SFX\space_units\REP_fighter\Move\M14.wav
+						Data\Audio\SFX\space_units\REP_fighter\Move\M15.wav
+						Data\Audio\SFX\space_units\REP_fighter\Move\M16.wav
+						Data\Audio\SFX\space_units\REP_fighter\Move\M17.wav
+						Data\Audio\SFX\space_units\REP_fighter\Move\M18.wav
+						Data\Audio\SFX\space_units\REP_fighter\Move\M19.wav
+						Data\Audio\SFX\space_units\REP_fighter\Move\M20.wav
+						Data\Audio\SFX\space_units\REP_fighter\Move\M21.wav
+						Data\Audio\SFX\space_units\REP_fighter\Move\M22.wav
+						Data\Audio\SFX\space_units\REP_fighter\Move\M23.wav
+					  </Samples>
+						  <Localize> Yes </Localize>
+						  <Play_Sequentially> No </Play_Sequentially>
+						<Text_ID></Text_ID>
+					  <Overlap_Test> Unit_rep_fighter </Overlap_Test>
+				</SFXEvent>
+
+	
+		<SFXEvent Name="Unit_Select_rep_fighter">
+			<Use_Preset>Preset_UR</Use_Preset>
+					 <Samples>
+						Data\Audio\SFX\space_units\REP_fighter\Select\S1.wav
+						Data\Audio\SFX\space_units\REP_fighter\Select\S2.wav
+						Data\Audio\SFX\space_units\REP_fighter\Select\S3.wav
+						Data\Audio\SFX\space_units\REP_fighter\Select\S4.wav
+						Data\Audio\SFX\space_units\REP_fighter\Select\S5.wav
+						Data\Audio\SFX\space_units\REP_fighter\Select\S6.wav
+						Data\Audio\SFX\space_units\REP_fighter\Select\S7.wav
+						Data\Audio\SFX\space_units\REP_fighter\Select\S8.wav
+						Data\Audio\SFX\space_units\REP_fighter\Select\S9.wav
+						Data\Audio\SFX\space_units\REP_fighter\Select\S10.wav
+						Data\Audio\SFX\space_units\REP_fighter\Select\S11.wav
+						Data\Audio\SFX\space_units\REP_fighter\Select\S12.wav
+						Data\Audio\SFX\space_units\REP_fighter\Select\S13.wav
+						Data\Audio\SFX\space_units\REP_fighter\Select\S14.wav
+					 </Samples>
+					<Localize> Yes </Localize>
+					<Play_Sequentially> No </Play_Sequentially>
+				<Text_ID></Text_ID>
+			<Overlap_Test> Unit_rep_fighter </Overlap_Test>
+		</SFXEvent>
+ 
+				
+		 <SFXEvent Name="Unit_Move_rep_fighter">
+					  <Use_Preset>Preset_UR</Use_Preset>
+						  <Samples>
+						Data\Audio\SFX\space_units\REP_fighter\Move\M1.wav
+						Data\Audio\SFX\space_units\REP_fighter\Move\M2.wav
+						Data\Audio\SFX\space_units\REP_fighter\Move\M3.wav
+						Data\Audio\SFX\space_units\REP_fighter\Move\M4.wav
+						Data\Audio\SFX\space_units\REP_fighter\Move\M5.wav
+						Data\Audio\SFX\space_units\REP_fighter\Move\M6.wav
+						Data\Audio\SFX\space_units\REP_fighter\Move\M7.wav
+						Data\Audio\SFX\space_units\REP_fighter\Move\M8.wav
+						Data\Audio\SFX\space_units\REP_fighter\Move\M9.wav
+						Data\Audio\SFX\space_units\REP_fighter\Move\M10.wav
+						Data\Audio\SFX\space_units\REP_fighter\Move\M11.wav
+						Data\Audio\SFX\space_units\REP_fighter\Move\M12.wav
+						Data\Audio\SFX\space_units\REP_fighter\Move\M13.wav
+						Data\Audio\SFX\space_units\REP_fighter\Move\M14.wav
+						Data\Audio\SFX\space_units\REP_fighter\Move\M15.wav
+						Data\Audio\SFX\space_units\REP_fighter\Move\M16.wav
+						Data\Audio\SFX\space_units\REP_fighter\Move\M17.wav
+						Data\Audio\SFX\space_units\REP_fighter\Move\M18.wav
+						Data\Audio\SFX\space_units\REP_fighter\Move\M19.wav
+						Data\Audio\SFX\space_units\REP_fighter\Move\M20.wav
+						Data\Audio\SFX\space_units\REP_fighter\Move\M21.wav
+						Data\Audio\SFX\space_units\REP_fighter\Move\M22.wav
+						Data\Audio\SFX\space_units\REP_fighter\Move\M23.wav
+						Data\Audio\SFX\space_units\REP_fighter\Move\M24.wav
+						Data\Audio\SFX\space_units\REP_fighter\Move\M25.wav
+						Data\Audio\SFX\space_units\REP_fighter\Move\M26.wav
+						Data\Audio\SFX\space_units\REP_fighter\Move\M27.wav
+						  </Samples>
+						  <Localize> Yes </Localize>
+						  <Play_Sequentially> No </Play_Sequentially>
+						<Text_ID></Text_ID>
+					  <Overlap_Test> Unit_rep_fighter </Overlap_Test>
+				</SFXEvent>
+				
+		<SFXEvent Name="Unit_Assist_Move_rep_fighter">
+					  <Use_Preset>Preset_UR</Use_Preset>
+						  <Samples>
+						Data\Audio\SFX\space_units\REP_fighter\Move\M1.wav
+						Data\Audio\SFX\space_units\REP_fighter\Move\M2.wav
+						Data\Audio\SFX\space_units\REP_fighter\Move\M3.wav
+						Data\Audio\SFX\space_units\REP_fighter\Move\M4.wav
+						Data\Audio\SFX\space_units\REP_fighter\Move\M5.wav
+						Data\Audio\SFX\space_units\REP_fighter\Move\M6.wav
+						Data\Audio\SFX\space_units\REP_fighter\Move\M7.wav
+						Data\Audio\SFX\space_units\REP_fighter\Move\M8.wav
+						Data\Audio\SFX\space_units\REP_fighter\Move\M9.wav
+						Data\Audio\SFX\space_units\REP_fighter\Move\M10.wav
+						Data\Audio\SFX\space_units\REP_fighter\Move\M11.wav
+						Data\Audio\SFX\space_units\REP_fighter\Move\M12.wav
+						Data\Audio\SFX\space_units\REP_fighter\Move\M13.wav
+						Data\Audio\SFX\space_units\REP_fighter\Move\M14.wav
+						Data\Audio\SFX\space_units\REP_fighter\Move\M15.wav
+						Data\Audio\SFX\space_units\REP_fighter\Move\M16.wav
+						Data\Audio\SFX\space_units\REP_fighter\Move\M17.wav
+						Data\Audio\SFX\space_units\REP_fighter\Move\M18.wav
+						Data\Audio\SFX\space_units\REP_fighter\Move\M19.wav
+						Data\Audio\SFX\space_units\REP_fighter\Move\M20.wav
+						Data\Audio\SFX\space_units\REP_fighter\Move\M21.wav
+						Data\Audio\SFX\space_units\REP_fighter\Move\M22.wav
+						Data\Audio\SFX\space_units\REP_fighter\Move\M23.wav
+						Data\Audio\SFX\space_units\REP_fighter\Move\M24.wav
+						Data\Audio\SFX\space_units\REP_fighter\Move\M25.wav
+						Data\Audio\SFX\space_units\REP_fighter\Move\M26.wav
+						Data\Audio\SFX\space_units\REP_fighter\Move\M27.wav
+						  </Samples>
+						  <Localize> Yes </Localize>
+						  <Play_Sequentially> No </Play_Sequentially>
+						  <Probability>60</Probability>
+						<Text_ID></Text_ID>
+					  <Overlap_Test> Unit_rep_fighter </Overlap_Test>
+				</SFXEvent>
+				
+				
+		<SFXEvent Name="Unit_Attack_rep_fighter">
+					  <Use_Preset>Preset_UR</Use_Preset>
+						  <Samples>
+						Data\Audio\SFX\space_units\REP_fighter\Attack\A1.wav
+						Data\Audio\SFX\space_units\REP_fighter\Attack\A2.wav
+						Data\Audio\SFX\space_units\REP_fighter\Attack\A3.wav
+						Data\Audio\SFX\space_units\REP_fighter\Attack\A4.wav
+						Data\Audio\SFX\space_units\REP_fighter\Attack\A5.wav
+						Data\Audio\SFX\space_units\REP_fighter\Attack\A6.wav
+						Data\Audio\SFX\space_units\REP_fighter\Attack\A7.wav
+						Data\Audio\SFX\space_units\REP_fighter\Attack\A8.wav
+						Data\Audio\SFX\space_units\REP_fighter\Attack\A9.wav
+						Data\Audio\SFX\space_units\REP_fighter\Attack\A10.wav
+						Data\Audio\SFX\space_units\REP_fighter\Attack\A11.wav
+						Data\Audio\SFX\space_units\REP_fighter\Attack\A12.wav
+						Data\Audio\SFX\space_units\REP_fighter\Attack\A13.wav
+						Data\Audio\SFX\space_units\REP_fighter\Attack\A14.wav
+						Data\Audio\SFX\space_units\REP_fighter\Attack\A15.wav
+						Data\Audio\SFX\space_units\REP_fighter\Attack\A16.wav
+						Data\Audio\SFX\space_units\REP_fighter\Attack\A17.wav
+						Data\Audio\SFX\space_units\REP_fighter\Attack\A18.wav
+						Data\Audio\SFX\space_units\REP_fighter\Attack\A19.wav
+						Data\Audio\SFX\space_units\REP_fighter\Attack\A20.wav
+						Data\Audio\SFX\space_units\REP_fighter\Attack\A21.wav
+						Data\Audio\SFX\space_units\REP_fighter\Attack\A22.wav
+						Data\Audio\SFX\space_units\REP_fighter\Attack\A23.wav
+						Data\Audio\SFX\space_units\REP_fighter\Attack\A24.wav
+						Data\Audio\SFX\space_units\REP_fighter\Attack\A25.wav
+						Data\Audio\SFX\space_units\REP_fighter\Attack\A26.wav
+						Data\Audio\SFX\space_units\REP_fighter\Attack\A27.wav
+						Data\Audio\SFX\space_units\REP_fighter\Attack\A28.wav
+						Data\Audio\SFX\space_units\REP_fighter\Attack\A29.wav
+						Data\Audio\SFX\space_units\REP_fighter\Attack\A30.wav
+						Data\Audio\SFX\space_units\REP_fighter\Attack\A31.wav
+						Data\Audio\SFX\space_units\REP_fighter\Attack\A32.wav
+						Data\Audio\SFX\space_units\REP_fighter\Attack\A33.wav
+						Data\Audio\SFX\space_units\REP_fighter\Attack\A34.wav
+						Data\Audio\SFX\space_units\REP_fighter\Attack\A35.wav
+						Data\Audio\SFX\space_units\REP_fighter\Attack\A36.wav
+						Data\Audio\SFX\space_units\REP_fighter\Attack\A37.wav
+						Data\Audio\SFX\space_units\REP_fighter\Attack\A38.wav
+						
+						  </Samples>
+						  <Localize> Yes </Localize>
+						  <Play_Sequentially> No </Play_Sequentially>
+						<Text_ID></Text_ID>
+					  <Overlap_Test> Unit_rep_fighter </Overlap_Test>
+				</SFXEvent>
+				
+		  <SFXEvent Name="Unit_Assist_Attack_rep_fighter">
+					  <Use_Preset>Preset_UR</Use_Preset>
+						  <Samples> 
+						Data\Audio\SFX\space_units\REP_fighter\Attack\A1.wav
+						Data\Audio\SFX\space_units\REP_fighter\Attack\A2.wav
+						Data\Audio\SFX\space_units\REP_fighter\Attack\A3.wav
+						Data\Audio\SFX\space_units\REP_fighter\Attack\A4.wav
+						Data\Audio\SFX\space_units\REP_fighter\Attack\A5.wav
+						Data\Audio\SFX\space_units\REP_fighter\Attack\A6.wav
+						Data\Audio\SFX\space_units\REP_fighter\Attack\A7.wav
+						Data\Audio\SFX\space_units\REP_fighter\Attack\A8.wav
+						Data\Audio\SFX\space_units\REP_fighter\Attack\A9.wav
+						Data\Audio\SFX\space_units\REP_fighter\Attack\A10.wav
+						Data\Audio\SFX\space_units\REP_fighter\Attack\A11.wav
+						Data\Audio\SFX\space_units\REP_fighter\Attack\A12.wav
+						Data\Audio\SFX\space_units\REP_fighter\Attack\A13.wav
+						Data\Audio\SFX\space_units\REP_fighter\Attack\A14.wav
+						Data\Audio\SFX\space_units\REP_fighter\Attack\A15.wav
+						Data\Audio\SFX\space_units\REP_fighter\Attack\A16.wav
+						Data\Audio\SFX\space_units\REP_fighter\Attack\A17.wav
+						Data\Audio\SFX\space_units\REP_fighter\Attack\A18.wav
+						Data\Audio\SFX\space_units\REP_fighter\Attack\A19.wav
+						Data\Audio\SFX\space_units\REP_fighter\Attack\A20.wav
+						Data\Audio\SFX\space_units\REP_fighter\Attack\A21.wav
+						Data\Audio\SFX\space_units\REP_fighter\Attack\A22.wav
+						Data\Audio\SFX\space_units\REP_fighter\Attack\A23.wav
+						Data\Audio\SFX\space_units\REP_fighter\Attack\A24.wav
+						Data\Audio\SFX\space_units\REP_fighter\Attack\A25.wav
+						Data\Audio\SFX\space_units\REP_fighter\Attack\A26.wav
+						Data\Audio\SFX\space_units\REP_fighter\Attack\A27.wav
+						Data\Audio\SFX\space_units\REP_fighter\Attack\A28.wav
+						Data\Audio\SFX\space_units\REP_fighter\Attack\A29.wav
+						Data\Audio\SFX\space_units\REP_fighter\Attack\A30.wav
+						Data\Audio\SFX\space_units\REP_fighter\Attack\A31.wav
+						Data\Audio\SFX\space_units\REP_fighter\Attack\A32.wav
+						Data\Audio\SFX\space_units\REP_fighter\Attack\A33.wav
+						Data\Audio\SFX\space_units\REP_fighter\Attack\A34.wav
+						Data\Audio\SFX\space_units\REP_fighter\Attack\A35.wav
+						Data\Audio\SFX\space_units\REP_fighter\Attack\A36.wav
+						Data\Audio\SFX\space_units\REP_fighter\Attack\A37.wav
+						Data\Audio\SFX\space_units\REP_fighter\Attack\A38.wav
+						  </Samples>
+						  <Localize> Yes </Localize>
+						  <Play_Sequentially> No </Play_Sequentially>
+						  <Probability>60</Probability>
+						<Text_ID></Text_ID>
+					  <Overlap_Test> Unit_rep_fighter </Overlap_Test>
+				</SFXEvent>
+				
+				
+				
+				
+			<SFXEvent Name="Unit_target_turret_rep_fighter">
+					  <Use_Preset>Preset_UR</Use_Preset>
+						  <Samples>
+						Data\Audio\SFX\space_units\REP_fighter\target_turret\T1.wav
+						Data\Audio\SFX\space_units\REP_fighter\target_turret\T2.wav
+						Data\Audio\SFX\space_units\REP_fighter\target_turret\T3.wav
+						Data\Audio\SFX\space_units\REP_fighter\target_turret\T4.wav
+						Data\Audio\SFX\space_units\REP_fighter\target_turret\T5.wav
+						Data\Audio\SFX\space_units\REP_fighter\target_turret\T6.wav
+						  </Samples>
+						  <Localize> Yes </Localize>
+						  <Play_Sequentially> No </Play_Sequentially>
+						<Text_ID></Text_ID>
+					  <Overlap_Test> Unit_rep_fighter </Overlap_Test>
+				</SFXEvent>
+				
+			<SFXEvent Name="Unit_Guard_rep_fighter">
+					 <Use_Preset>Preset_UR</Use_Preset>
+					  <Samples>
+						Data\Audio\SFX\space_units\REP_fighter\Select\S1.wav
+						Data\Audio\SFX\space_units\REP_fighter\Select\S2.wav
+						Data\Audio\SFX\space_units\REP_fighter\Select\S3.wav
+						Data\Audio\SFX\space_units\REP_fighter\Select\S4.wav
+						Data\Audio\SFX\space_units\REP_fighter\Select\S5.wav
+						Data\Audio\SFX\space_units\REP_fighter\Select\S6.wav
+						Data\Audio\SFX\space_units\REP_fighter\Select\S7.wav
+						Data\Audio\SFX\space_units\REP_fighter\Select\S8.wav
+						Data\Audio\SFX\space_units\REP_fighter\Select\S9.wav
+						Data\Audio\SFX\space_units\REP_fighter\Select\S10.wav
+						Data\Audio\SFX\space_units\REP_fighter\Select\S11.wav
+						Data\Audio\SFX\space_units\REP_fighter\Select\S12.wav
+						Data\Audio\SFX\space_units\REP_fighter\Select\S13.wav
+						Data\Audio\SFX\space_units\REP_fighter\Select\S14.wav
+					  </Samples>
+						  <Localize> Yes </Localize>
+						  <Play_Sequentially> No </Play_Sequentially>
+							<Text_ID></Text_ID>
+					  <Overlap_Test> Unit_rep_fighter </Overlap_Test>
+				</SFXEvent>
+				
+				<SFXEvent Name="Unit_low_health_rep_fighter">
+					 <Use_Preset>Preset_EXP</Use_Preset>
+					  <Samples>
+						Data\Audio\SFX\space_units\REP_fighter\loosing\L1.wav
+						Data\Audio\SFX\space_units\REP_fighter\loosing\L2.wav
+						Data\Audio\SFX\space_units\REP_fighter\loosing\L3.wav
+						Data\Audio\SFX\space_units\REP_fighter\loosing\L4.wav
+						Data\Audio\SFX\space_units\REP_fighter\loosing\L5.wav
+						Data\Audio\SFX\space_units\REP_fighter\loosing\L6.wav
+						Data\Audio\SFX\space_units\REP_fighter\loosing\L7.wav
+						Data\Audio\SFX\space_units\REP_fighter\loosing\L8.wav
+						Data\Audio\SFX\space_units\REP_fighter\loosing\L9.wav
+						Data\Audio\SFX\space_units\REP_fighter\loosing\L10.wav
+						Data\Audio\SFX\space_units\REP_fighter\loosing\L11.wav
+						Data\Audio\SFX\space_units\REP_fighter\loosing\L12.wav
+						Data\Audio\SFX\space_units\REP_fighter\loosing\L13.wav
+						Data\Audio\SFX\space_units\REP_fighter\loosing\L14.wav
+						Data\Audio\SFX\space_units\REP_fighter\loosing\L15.wav
+						Data\Audio\SFX\space_units\REP_fighter\loosing\L16.wav
+						Data\Audio\SFX\space_units\REP_fighter\loosing\L17.wav
+						Data\Audio\SFX\space_units\REP_fighter\loosing\L18.wav
+						Data\Audio\SFX\space_units\REP_fighter\loosing\L19.wav
+						Data\Audio\SFX\space_units\REP_fighter\loosing\L20.wav
+						Data\Audio\SFX\space_units\REP_fighter\loosing\L21.wav
+						Data\Audio\SFX\space_units\REP_fighter\loosing\L22.wav
+						Data\Audio\SFX\space_units\REP_fighter\loosing\L23.wav
+						Data\Audio\SFX\space_units\REP_fighter\loosing\L24.wav
+						Data\Audio\SFX\space_units\REP_fighter\loosing\L25.wav
+						Data\Audio\SFX\space_units\REP_fighter\loosing\L26.wav
+						Data\Audio\SFX\space_units\REP_fighter\loosing\L27.wav
+						Data\Audio\SFX\space_units\REP_fighter\loosing\L28.wav
+						Data\Audio\SFX\space_units\REP_fighter\Death\D1.wav
+						Data\Audio\SFX\space_units\REP_fighter\Death\D2.wav
+						Data\Audio\SFX\space_units\REP_fighter\Death\D3.wav
+						Data\Audio\SFX\space_units\REP_fighter\Death\D4.wav
+						Data\Audio\SFX\space_units\REP_fighter\Death\D5.wav
+						Data\Audio\SFX\space_units\REP_fighter\Death\D6.wav
+						Data\Audio\SFX\space_units\REP_fighter\Death\D7.wav
+						Data\Audio\SFX\space_units\REP_fighter\Death\D8.wav
+						Data\Audio\SFX\space_units\REP_fighter\Death\D9.wav
+						Data\Audio\SFX\space_units\REP_fighter\Death\D10.wav
+						Data\Audio\SFX\space_units\REP_fighter\Death\D11.wav
+						Data\Audio\SFX\space_units\REP_fighter\Death\D11.wav
+					  </Samples>
+						  <Localize> Yes </Localize>
+						  <Play_Sequentially> No </Play_Sequentially>
+							<Text_ID></Text_ID>
+					  <Overlap_Test> Unit_rep_fighter_status </Overlap_Test>
+				</SFXEvent>
+				
+				<SFXEvent Name="Unit_critical_health_rep_fighter">
+					 <Use_Preset>Preset_EXP</Use_Preset>
+					  <Samples>
+						Data\Audio\SFX\space_units\REP_fighter\loosing\L1.wav
+						Data\Audio\SFX\space_units\REP_fighter\loosing\L2.wav
+						Data\Audio\SFX\space_units\REP_fighter\loosing\L3.wav
+						Data\Audio\SFX\space_units\REP_fighter\loosing\L4.wav
+						Data\Audio\SFX\space_units\REP_fighter\loosing\L5.wav
+						Data\Audio\SFX\space_units\REP_fighter\loosing\L6.wav
+						Data\Audio\SFX\space_units\REP_fighter\loosing\L7.wav
+						Data\Audio\SFX\space_units\REP_fighter\loosing\L8.wav
+						Data\Audio\SFX\space_units\REP_fighter\loosing\L9.wav
+						Data\Audio\SFX\space_units\REP_fighter\loosing\L10.wav
+						Data\Audio\SFX\space_units\REP_fighter\loosing\L11.wav
+						Data\Audio\SFX\space_units\REP_fighter\loosing\L12.wav
+						Data\Audio\SFX\space_units\REP_fighter\loosing\L13.wav
+						Data\Audio\SFX\space_units\REP_fighter\loosing\L14.wav
+						Data\Audio\SFX\space_units\REP_fighter\loosing\L15.wav
+						Data\Audio\SFX\space_units\REP_fighter\loosing\L16.wav
+						Data\Audio\SFX\space_units\REP_fighter\loosing\L17.wav
+						Data\Audio\SFX\space_units\REP_fighter\loosing\L18.wav
+						Data\Audio\SFX\space_units\REP_fighter\loosing\L19.wav
+						Data\Audio\SFX\space_units\REP_fighter\loosing\L20.wav
+						Data\Audio\SFX\space_units\REP_fighter\loosing\L21.wav
+						Data\Audio\SFX\space_units\REP_fighter\loosing\L22.wav
+						Data\Audio\SFX\space_units\REP_fighter\loosing\L23.wav
+						Data\Audio\SFX\space_units\REP_fighter\loosing\L24.wav
+						Data\Audio\SFX\space_units\REP_fighter\loosing\L25.wav
+						Data\Audio\SFX\space_units\REP_fighter\loosing\L26.wav
+						Data\Audio\SFX\space_units\REP_fighter\loosing\L27.wav
+						Data\Audio\SFX\space_units\REP_fighter\loosing\L28.wav
+						Data\Audio\SFX\space_units\REP_fighter\Death\D1.wav
+						Data\Audio\SFX\space_units\REP_fighter\Death\D2.wav
+						Data\Audio\SFX\space_units\REP_fighter\Death\D3.wav
+						Data\Audio\SFX\space_units\REP_fighter\Death\D4.wav
+						Data\Audio\SFX\space_units\REP_fighter\Death\D5.wav
+						Data\Audio\SFX\space_units\REP_fighter\Death\D6.wav
+						Data\Audio\SFX\space_units\REP_fighter\Death\D7.wav
+						Data\Audio\SFX\space_units\REP_fighter\Death\D8.wav
+						Data\Audio\SFX\space_units\REP_fighter\Death\D9.wav
+						Data\Audio\SFX\space_units\REP_fighter\Death\D10.wav
+						Data\Audio\SFX\space_units\REP_fighter\Death\D11.wav
+						Data\Audio\SFX\space_units\REP_fighter\Death\D11.wav
+					  </Samples>
+						  <Localize> Yes </Localize>
+						  <Play_Sequentially> No </Play_Sequentially>
+							<Text_ID></Text_ID>
+					  <Overlap_Test> Unit_rep_fighter_status </Overlap_Test>
+				</SFXEvent>
+				
+				<SFXEvent Name="Unit_enemy_low_health_rep_fighter">
+					<Use_Preset>Preset_EXP</Use_Preset>
+					  <Samples>
+						Data\Audio\SFX\space_units\REP_fighter\winning\W1.wav
+						Data\Audio\SFX\space_units\REP_fighter\winning\W2.wav
+						Data\Audio\SFX\space_units\REP_fighter\winning\W3.wav
+						Data\Audio\SFX\space_units\REP_fighter\winning\W4.wav
+						Data\Audio\SFX\space_units\REP_fighter\winning\W5.wav
+						Data\Audio\SFX\space_units\REP_fighter\winning\W6.wav
+						Data\Audio\SFX\space_units\REP_fighter\winning\W7.wav
+						Data\Audio\SFX\space_units\REP_fighter\winning\W8.wav
+						Data\Audio\SFX\space_units\REP_fighter\winning\W9.wav
+						Data\Audio\SFX\space_units\REP_fighter\winning\W10.wav
+						Data\Audio\SFX\space_units\REP_fighter\winning\W11.wav
+						Data\Audio\SFX\space_units\REP_fighter\winning\W12.wav
+						Data\Audio\SFX\space_units\REP_fighter\winning\W13.wav
+						Data\Audio\SFX\space_units\REP_fighter\winning\W14.wav
+						Data\Audio\SFX\space_units\REP_fighter\winning\W15.wav
+						Data\Audio\SFX\space_units\REP_fighter\winning\W16.wav
+						Data\Audio\SFX\space_units\REP_fighter\winning\W17.wav
+						Data\Audio\SFX\space_units\REP_fighter\winning\W18.wav
+						Data\Audio\SFX\space_units\REP_fighter\winning\W19.wav
+						Data\Audio\SFX\space_units\REP_fighter\winning\W20.wav
+						Data\Audio\SFX\space_units\REP_fighter\winning\W21.wav
+						Data\Audio\SFX\space_units\REP_fighter\winning\W22.wav
+						Data\Audio\SFX\space_units\REP_fighter\winning\W23.wav
+						Data\Audio\SFX\space_units\REP_fighter\winning\W24.wav
+						Data\Audio\SFX\space_units\REP_fighter\winning\W25.wav
+					  </Samples>
+						  <Localize> Yes </Localize>
+						  <Play_Sequentially> No </Play_Sequentially>
+							<Text_ID></Text_ID>
+					  <Overlap_Test> Unit_rep_fighter_status </Overlap_Test>
+				</SFXEvent>
+				
+				<SFXEvent Name="Unit_enemy_critical_health_rep_fighter">
+					<Use_Preset>Preset_EXP</Use_Preset>
+					  <Samples>
+						Data\Audio\SFX\space_units\REP_fighter\winning\W1.wav
+						Data\Audio\SFX\space_units\REP_fighter\winning\W2.wav
+						Data\Audio\SFX\space_units\REP_fighter\winning\W3.wav
+						Data\Audio\SFX\space_units\REP_fighter\winning\W4.wav
+						Data\Audio\SFX\space_units\REP_fighter\winning\W5.wav
+						Data\Audio\SFX\space_units\REP_fighter\winning\W6.wav
+						Data\Audio\SFX\space_units\REP_fighter\winning\W7.wav
+						Data\Audio\SFX\space_units\REP_fighter\winning\W8.wav
+						Data\Audio\SFX\space_units\REP_fighter\winning\W9.wav
+						Data\Audio\SFX\space_units\REP_fighter\winning\W10.wav
+						Data\Audio\SFX\space_units\REP_fighter\winning\W11.wav
+						Data\Audio\SFX\space_units\REP_fighter\winning\W12.wav
+						Data\Audio\SFX\space_units\REP_fighter\winning\W13.wav
+						Data\Audio\SFX\space_units\REP_fighter\winning\W14.wav
+						Data\Audio\SFX\space_units\REP_fighter\winning\W15.wav
+						Data\Audio\SFX\space_units\REP_fighter\winning\W16.wav
+						Data\Audio\SFX\space_units\REP_fighter\winning\W17.wav
+						Data\Audio\SFX\space_units\REP_fighter\winning\W18.wav
+						Data\Audio\SFX\space_units\REP_fighter\winning\W19.wav
+						Data\Audio\SFX\space_units\REP_fighter\winning\W20.wav
+						Data\Audio\SFX\space_units\REP_fighter\winning\W21.wav
+						Data\Audio\SFX\space_units\REP_fighter\winning\W22.wav
+						Data\Audio\SFX\space_units\REP_fighter\winning\W23.wav
+						Data\Audio\SFX\space_units\REP_fighter\winning\W24.wav
+						Data\Audio\SFX\space_units\REP_fighter\winning\W25.wav
+					  </Samples>
+						  <Localize> Yes </Localize>
+						  <Play_Sequentially> No </Play_Sequentially>
+							<Text_ID></Text_ID>
+					  <Overlap_Test> Unit_rep_fighter_status </Overlap_Test>
+				</SFXEvent>
+				
+				
+				
+				
+				<SFXEvent Name="Unit_asteroids_rep_fighter">
+					 <Use_Preset>Preset_UR</Use_Preset>
+					  <Samples>
+						
+					  </Samples>
+						  <Localize> Yes </Localize>
+						  <Play_Sequentially> No </Play_Sequentially>
+							<Text_ID></Text_ID>
+					  <Overlap_Test> Unit_rep_fighter </Overlap_Test>
+				</SFXEvent>
+				
+				
+				
+					<SFXEvent Name="Unit_nebula_rep_fighter">
+					 <Use_Preset>Preset_UR</Use_Preset>
+					  <Samples>
+		
+					  </Samples>
+						  <Localize> Yes </Localize>
+						  <Play_Sequentially> No </Play_Sequentially>
+							<Text_ID></Text_ID>
+					  <Overlap_Test> Unit_rep_fighter </Overlap_Test>
+				</SFXEvent>
+				
+				
+				
+			<SFXEvent Name="Unit_Death_rep_fighter">
+					 <Use_Preset>Preset_EXP</Use_Preset>
+					  <Samples>
+						Data\Audio\SFX\space_units\REP_fighter\Death\D1.wav
+						Data\Audio\SFX\space_units\REP_fighter\Death\D2.wav
+						Data\Audio\SFX\space_units\REP_fighter\Death\D3.wav
+						Data\Audio\SFX\space_units\REP_fighter\Death\D4.wav
+						Data\Audio\SFX\space_units\REP_fighter\Death\D5.wav
+						Data\Audio\SFX\space_units\REP_fighter\Death\D6.wav
+						Data\Audio\SFX\space_units\REP_fighter\Death\D7.wav
+						Data\Audio\SFX\space_units\REP_fighter\Death\D8.wav
+						Data\Audio\SFX\space_units\REP_fighter\Death\D9.wav
+						Data\Audio\SFX\space_units\REP_fighter\Death\D10.wav
+						Data\Audio\SFX\space_units\REP_fighter\Death\D11.wav
+						Data\Audio\SFX\space_units\REP_fighter\Death\D11.wav
+					  </Samples>
+						  <Localize> Yes </Localize>
+						  <Play_Sequentially> No </Play_Sequentially>
+						  <Probability>30</Probability>
+							<Text_ID></Text_ID>
+					  <Overlap_Test> Unit_rep_fighter </Overlap_Test>
+				</SFXEvent>	
+				
+				
+				
+				
+				
+		<!-- Republic bomber y-wing  -->
+			
+			
+
+			<SFXEvent Name="Unit_Complete_rep_y_wing">
+			<Use_Preset>Preset_UR</Use_Preset>
+				<Samples>
+					Data\Audio\SFX\space_units\REP_Y_Wing\Select\S10.wav
+				</Samples>
+					<Localize> Yes </Localize>
+					<Play_Sequentially> Yes </Play_Sequentially>
+					<Text_ID></Text_ID>
+					<Overlap_Test> Unit_rep_y_wing </Overlap_Test>
+				</SFXEvent>
+				
+				
+				
+		<SFXEvent Name="Unit_hunt_rep_y_wing">
+			<Use_Preset>Preset_UR</Use_Preset>
+				<Samples>
+					Data\Audio\SFX\space_units\REP_Y_Wing\Ability\hunt.wav
+				</Samples>
+					<Localize> Yes </Localize>
+					<Play_Sequentially> Yes </Play_Sequentially>
+					<Text_ID></Text_ID>
+				</SFXEvent>
+		
+		
+		<SFXEvent Name="Unit_Fleet_Move_rep_y_wing">
+					  <Use_Preset>Preset_UR</Use_Preset>
+					  <Samples>
+						Data\Audio\SFX\space_units\REP_Y_Wing\Move\M1.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Move\M2.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Move\M3.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Move\M4.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Move\M5.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Move\M6.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Move\M7.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Move\M8.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Move\M9.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Move\M10.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Move\M11.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Move\M12.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Move\M13.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Move\M14.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Move\M15.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Move\M16.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Move\M17.wav
+					  </Samples>
+						  <Localize> Yes </Localize>
+						  <Play_Sequentially> No </Play_Sequentially>
+						<Text_ID></Text_ID>
+					  <Overlap_Test> Unit_rep_y_wing </Overlap_Test>
+				</SFXEvent>
+
+	
+		<SFXEvent Name="Unit_Select_rep_y_wing">
+			<Use_Preset>Preset_UR</Use_Preset>
+					 <Samples>
+						Data\Audio\SFX\space_units\REP_Y_Wing\Select\S1.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Select\S2.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Select\S3.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Select\S4.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Select\S5.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Select\S6.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Select\S7.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Select\S8.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Select\S9.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Select\S10.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Select\S11.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Select\S12.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Select\S13.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Select\S14.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Select\S15.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Select\S16.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Select\S17.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Select\S18.wav
+					 </Samples>
+					<Localize> Yes </Localize>
+					<Play_Sequentially> No </Play_Sequentially>
+				<Text_ID></Text_ID>
+			<Overlap_Test> Unit_rep_y_wing </Overlap_Test>
+		</SFXEvent>
+ 
+				
+		 <SFXEvent Name="Unit_Move_rep_y_wing">
+					  <Use_Preset>Preset_UR</Use_Preset>
+						  <Samples>
+						Data\Audio\SFX\space_units\REP_Y_Wing\Move\M1.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Move\M2.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Move\M3.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Move\M4.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Move\M5.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Move\M6.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Move\M7.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Move\M8.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Move\M9.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Move\M10.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Move\M11.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Move\M12.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Move\M13.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Move\M14.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Move\M15.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Move\M16.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Move\M17.wav
+						  </Samples>
+						  <Localize> Yes </Localize>
+						  <Play_Sequentially> No </Play_Sequentially>
+						<Text_ID></Text_ID>
+					  <Overlap_Test> Unit_rep_y_wing </Overlap_Test>
+				</SFXEvent>
+				
+		<SFXEvent Name="Unit_Assist_Move_rep_y_wing">
+					  <Use_Preset>Preset_UR</Use_Preset>
+						  <Samples>
+						Data\Audio\SFX\space_units\REP_Y_Wing\Move\M1.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Move\M2.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Move\M3.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Move\M4.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Move\M5.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Move\M6.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Move\M7.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Move\M8.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Move\M9.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Move\M10.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Move\M11.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Move\M12.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Move\M13.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Move\M14.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Move\M15.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Move\M16.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Move\M17.wav
+						  </Samples>
+						  <Localize> Yes </Localize>
+						  <Play_Sequentially> No </Play_Sequentially>
+						  <Probability>60</Probability>
+						<Text_ID></Text_ID>
+					  <Overlap_Test> Unit_rep_y_wing </Overlap_Test>
+				</SFXEvent>
+				
+				
+		<SFXEvent Name="Unit_Attack_rep_y_wing">
+					  <Use_Preset>Preset_UR</Use_Preset>
+						  <Samples>
+						Data\Audio\SFX\space_units\REP_Y_Wing\Attack\A1.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Attack\A2.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Attack\A3.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Attack\A4.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Attack\A5.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Attack\A6.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Attack\A7.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Attack\A8.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Attack\A9.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Attack\A10.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Attack\A11.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Attack\A12.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Attack\A13.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Attack\A14.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Attack\A15.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Attack\A16.wav	
+						  </Samples>
+						  <Localize> Yes </Localize>
+						  <Play_Sequentially> No </Play_Sequentially>
+						<Text_ID></Text_ID>
+					  <Overlap_Test> Unit_rep_y_wing </Overlap_Test>
+				</SFXEvent>
+				
+		  <SFXEvent Name="Unit_Assist_Attack_rep_y_wing">
+					  <Use_Preset>Preset_UR</Use_Preset>
+						  <Samples> 
+						Data\Audio\SFX\space_units\REP_Y_Wing\Attack\A1.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Attack\A2.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Attack\A3.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Attack\A4.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Attack\A5.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Attack\A6.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Attack\A7.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Attack\A8.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Attack\A9.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Attack\A10.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Attack\A11.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Attack\A12.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Attack\A13.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Attack\A14.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Attack\A15.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Attack\A16.wav
+						  </Samples>
+						  <Localize> Yes </Localize>
+						  <Play_Sequentially> No </Play_Sequentially>
+						  <Probability>60</Probability>
+						<Text_ID></Text_ID>
+					  <Overlap_Test> Unit_rep_y_wing </Overlap_Test>
+				</SFXEvent>
+				
+				
+				
+				
+			<SFXEvent Name="Unit_target_turret_rep_y_wing">
+					  <Use_Preset>Preset_UR</Use_Preset>
+						  <Samples>
+						Data\Audio\SFX\space_units\REP_Y_Wing\Attack\A1.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Attack\A2.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Target\T1.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Attack\A3.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Attack\A4.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Attack\A5.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Target\T1.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Attack\A6.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Attack\A7.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Attack\A8.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Attack\A9.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Attack\A10.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Target\T1.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Attack\A11.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Attack\A12.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Attack\A13.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Attack\A14.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Attack\A15.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Attack\A16.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Target\T1.wav
+						  </Samples>
+						  <Localize> Yes </Localize>
+						  <Play_Sequentially> No </Play_Sequentially>
+						<Text_ID></Text_ID>
+					  <Overlap_Test> Unit_rep_y_wing </Overlap_Test>
+				</SFXEvent>
+				
+			<SFXEvent Name="Unit_Guard_rep_y_wing">
+					 <Use_Preset>Preset_UR</Use_Preset>
+					  <Samples>
+						Data\Audio\SFX\space_units\REP_Y_Wing\Guard\G1.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Guard\G2.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Guard\G3.wav
+					  </Samples>
+						  <Localize> Yes </Localize>
+						  <Play_Sequentially> No </Play_Sequentially>
+							<Text_ID></Text_ID>
+					  <Overlap_Test> Unit_rep_y_wing </Overlap_Test>
+				</SFXEvent>
+				
+				<SFXEvent Name="Unit_low_health_rep_y_wing">
+					 <Use_Preset>Preset_EXP</Use_Preset>
+					  <Samples>
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L1.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L2.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L3.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L4.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L5.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L6.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L7.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L8.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L9.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L10.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L11.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L12.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L13.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L14.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L15.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L16.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L17.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L18.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L19.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L20.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L21.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L22.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L23.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L24.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L25.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L26.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L27.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L28.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L29.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L30.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L31.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L32.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L33.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L34.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L35.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L36.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L37.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L38.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L39.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L40.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L41.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L42.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L43.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L44.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L45.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L46.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L47.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L48.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L49.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L50.wav
+					  </Samples>
+						  <Localize> Yes </Localize>
+						  <Play_Sequentially> No </Play_Sequentially>
+							<Text_ID></Text_ID>
+					  <Overlap_Test> Unit_rep_fighter_status </Overlap_Test>
+				</SFXEvent>
+				
+				<SFXEvent Name="Unit_critical_health_rep_y_wing">
+					 <Use_Preset>Preset_EXP</Use_Preset>
+					  <Samples>
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L1.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L2.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L3.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L4.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L5.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L6.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L7.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L8.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L9.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L10.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L11.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L12.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L13.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L14.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L15.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L16.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L17.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L18.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L19.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L20.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L21.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L22.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L23.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L24.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L25.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L26.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L27.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L28.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L29.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L30.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L31.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L32.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L33.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L34.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L35.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L36.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L37.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L38.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L39.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L40.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L41.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L42.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L43.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L44.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L45.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L46.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L47.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L48.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L49.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L50.wav
+					  </Samples>
+						  <Localize> Yes </Localize>
+						  <Play_Sequentially> No </Play_Sequentially>
+							<Text_ID></Text_ID>
+					  <Overlap_Test> Unit_rep_fighter_status </Overlap_Test>
+				</SFXEvent>
+				
+				<SFXEvent Name="Unit_enemy_low_health_rep_y_wing">
+					<Use_Preset>Preset_EXP</Use_Preset>
+					  <Samples>
+						Data\Audio\SFX\space_units\REP_Y_Wing\Winning\W1.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Winning\W2.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Winning\W3.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Winning\W4.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Winning\W5.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Winning\W6.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Winning\W7.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Winning\W8.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Winning\W9.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Winning\W10.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Winning\W11.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Winning\W12.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Winning\W13.wav
+					  </Samples>
+						  <Localize> Yes </Localize>
+						  <Play_Sequentially> No </Play_Sequentially>
+							<Text_ID></Text_ID>
+					  <Overlap_Test> Unit_rep_fighter_status </Overlap_Test>
+				</SFXEvent>
+				
+				<SFXEvent Name="Unit_enemy_critical_health_rep_y_wing">
+					<Use_Preset>Preset_EXP</Use_Preset>
+					  <Samples>
+						Data\Audio\SFX\space_units\REP_Y_Wing\Winning\W1.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Winning\W2.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Winning\W3.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Winning\W4.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Winning\W5.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Winning\W6.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Winning\W7.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Winning\W8.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Winning\W9.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Winning\W10.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Winning\W11.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Winning\W12.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Winning\W13.wav
+					  </Samples>
+						  <Localize> Yes </Localize>
+						  <Play_Sequentially> No </Play_Sequentially>
+							<Text_ID></Text_ID>
+					  <Overlap_Test> Unit_rep_fighter_status </Overlap_Test>
+				</SFXEvent>
+				
+				
+				
+				
+				<SFXEvent Name="Unit_asteroids_rep_y_wing">
+					 <Use_Preset>Preset_UR</Use_Preset>
+					  <Samples>
+						Data\Audio\SFX\space_units\REP_Y_Wing\Asteroids\asteroids1.wav
+					  </Samples>
+						  <Localize> Yes </Localize>
+						  <Play_Sequentially> No </Play_Sequentially>
+							<Text_ID></Text_ID>
+					  <Overlap_Test> Unit_rep_y_wing </Overlap_Test>
+				</SFXEvent>
+				
+				
+				
+					<SFXEvent Name="Unit_nebula_rep_y_wing">
+					 <Use_Preset>Preset_UR</Use_Preset>
+					  <Samples>
+		
+					  </Samples>
+						  <Localize> Yes </Localize>
+						  <Play_Sequentially> No </Play_Sequentially>
+							<Text_ID></Text_ID>
+					  <Overlap_Test> Unit_rep_fighter_status </Overlap_Test>
+				</SFXEvent>
+				
+				
+				
+			<SFXEvent Name="Unit_Death_rep_y_wing">
+					 <Use_Preset>Preset_EXP</Use_Preset>
+					  <Samples>
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L1.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L2.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L3.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L4.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L5.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L6.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L7.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L8.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L9.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L10.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L11.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L12.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L13.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L14.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L15.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L16.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L17.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L18.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L19.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L20.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L21.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L22.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L23.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L24.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L25.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L26.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L27.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L28.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L29.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L30.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L31.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L32.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L33.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L34.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L35.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L36.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L37.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L38.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L39.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L40.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L41.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L42.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L43.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L44.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L45.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L46.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L47.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L48.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L49.wav
+						Data\Audio\SFX\space_units\REP_Y_Wing\Loosing\L50.wav
+					  </Samples>
+						  <Localize> Yes </Localize>
+						  <Play_Sequentially> No </Play_Sequentially>
+						  <Probability>30</Probability>
+							<Text_ID></Text_ID>
+					  <Overlap_Test> Unit_rep_y_wing </Overlap_Test>
+				</SFXEvent>	
 							
 </SFXEvents>

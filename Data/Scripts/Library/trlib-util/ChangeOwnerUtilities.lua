@@ -20,6 +20,7 @@
 
 require("PGBase")
 require("PGStateMachine")
+CONSTANTS = ModContentLoader.get("GameConstants")
 
 ---Changes the owner of a given list of planets or a single planet. All units from these planets are transfered to an allied planet
 ---@param planets PlanetObject|PlanetObject[]
@@ -42,18 +43,38 @@ function ChangePlanetOwnerAndRetreat(planets, newOwner)
 
     for i, planet in pairs(planets) do
         local owner = planet.Get_Owner()
+
+        insert_all_enemy_units_on_planet(allUnitsPerOwner, owner, planet)
+
         if not allUnitsPerOwner[owner] then
-            allUnitsPerOwner[owner] = Find_All_Objects_Of_Type(owner)
+            allUnitsPerOwner[owner] = get_friendly_units_on_planet(owner, planet)
         end
 
-        local allUnitsOfCurrentOwner = allUnitsPerOwner[owner]
-        insert_into_spawn_tables(unitTypes, unitOwners, allUnitsOfCurrentOwner, planet)
+        -- local allUnitsOfCurrentOwner = allUnitsPerOwner[owner]
+        for player, units in pairs(allUnitsPerOwner) do
+            insert_into_spawn_tables(unitTypes, unitOwners, units, planet)
+        end
 
         planet.Change_Owner(newOwner)
     end
 
     spawn_units_on_friendly_location(unitTypes, unitOwners)
     set_hero_death_enabled(true)
+end
+
+function insert_all_enemy_units_on_planet(allUnitsPerOwner, planet_owner, planet)
+    if EvaluatePerception("Enemy_Present", planet_owner, planet) == 1 then
+        for _, enemy_faction in pairs(CONSTANTS.ALL_FACTIONS) do
+            local enemy_faction_obj = Find_Player(enemy_faction)
+            if enemy_faction_obj ~= planet_owner then
+                local friendly_units_on_planet = get_friendly_units_on_planet(enemy_faction_obj, planet)
+
+                if table.getn(friendly_units_on_planet) > 0 then
+                    allUnitsPerOwner[enemy_faction_obj] = friendly_units_on_planet
+                end
+            end
+        end
+    end
 end
 
 ---Changes the owner of a given list of planets or a single planet. All units from these planets are replaced with the same units set to the new owner
@@ -64,6 +85,12 @@ function ChangePlanetOwnerAndReplace(planets, newOwner)
     if type(planets) ~= "table" then
         planets = {planets}
     end
+
+    ---@type GameObject[]
+    local friendlyUnitTypes = {}
+
+    ---@type FactionObject[]
+    local friendlyUnitOwners = {}
 
     ---@type GameObject[]
     local unitTypes = {}
@@ -81,15 +108,38 @@ function ChangePlanetOwnerAndReplace(planets, newOwner)
             allUnitsPerOwner[owner] = Find_All_Objects_Of_Type(owner)
         end
 
+        insert_all_enemy_units_on_planet(allUnitsPerOwner, owner, planet)
+
         local allUnitsOfCurrentOwner = allUnitsPerOwner[owner]
-        insert_into_spawn_tables(unitTypes, unitOwners, allUnitsOfCurrentOwner, planet)
+        insert_into_spawn_tables(friendlyUnitTypes, friendlyUnitOwners, allUnitsOfCurrentOwner, planet)
+
+        allUnitsPerOwner[owner] = nil
+        for player, units in pairs(allUnitsPerOwner) do
+            insert_into_spawn_tables(unitTypes, unitOwners, units, planet)
+        end
 
         planet.Change_Owner(newOwner)
-		
-		spawn_units_on_target_location(unitTypes, planet, newOwner)
+
+        spawn_units_on_target_location(friendlyUnitTypes, planet, newOwner)
+        spawn_units_on_friendly_location(unitTypes, unitOwners)
     end
 
     set_hero_death_enabled(true)
+end
+
+---@param player FactionObject
+---@param planet PlanetObject
+function get_friendly_units_on_planet(player, planet)
+    local all_units_of_player = Find_All_Objects_Of_Type(player)
+    local friendly_units_on_planet = {}
+    for _, unit in pairs(all_units_of_player) do
+        if should_insert_into_spawn_table(unit, planet) then
+            local relevant_object = get_relevant_object(unit)
+            table.insert(friendly_units_on_planet, relevant_object)
+        end
+    end
+
+    return friendly_units_on_planet
 end
 
 function insert_into_spawn_tables(unit_types_table, unit_owners_table, all_units_of_owner, planet)
@@ -188,7 +238,6 @@ end
 ---@param owner FactionObject[]
 function spawn_units_on_target_location(unitTypes, planet, owner)
     for _, unit_type in ipairs(unitTypes) do
-
         if TestValid(planet) then
             DebugMessage("Spawning unit type %s on %s", unit_type.Get_Name(), planet.Get_Type().Get_Name())
             Spawn_Unit(unit_type, planet, owner)

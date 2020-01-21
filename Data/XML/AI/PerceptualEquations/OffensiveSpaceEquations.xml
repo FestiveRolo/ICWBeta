@@ -235,7 +235,7 @@
 			+
 			(1.0 * Variable_Target.ForceNBTD)
 			+
-			5.0 * Variable_Target.ContainsHero
+			2.0 * Variable_Target.ContainsHero
 			+
 			1.0
 		)

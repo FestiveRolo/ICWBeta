@@ -49,7 +49,6 @@ function Conquer_Observer_Rep()
 	object = Find_First_Object("Dummy_Intervention_Conquer")
 	object.Despawn()
 
-
 	plot = Get_Story_Plot("Conquests\\MissionFiles\\Intervention_Conquer_Planet_Rep.xml")
 
 	republic = Find_Player("Empire")

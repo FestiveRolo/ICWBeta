@@ -1461,7 +1461,7 @@
 		<Is_Escort>no</Is_Escort>
 		<Ship_Class>artillery</Ship_Class>
 		<Company_Transport_Unit>CR20_Landing_Craft_Artillery</Company_Transport_Unit>
-		<Company_Units>AV7, AV7</Company_Units>
+		<Company_Units>AV7</Company_Units>
 		<Max_Squad_Size> 1 </Max_Squad_Size>
 		<Icon_Name>i_button_av7.tga</Icon_Name>
 		<SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>

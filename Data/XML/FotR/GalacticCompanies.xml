@@ -267,7 +267,7 @@
 			<Reduce_Production_Price_Ability Name="Rendili_Reduce_Production_Price">
 				<Unit_Strength_Category />
 				<Applicable_Unit_Categories></Applicable_Unit_Categories>
-				<Applicable_Unit_Types> Invincible_Cruiser, Generic_Victory_Destroyer, Dreadnaught, Dreadnaught_Lasers, Katana_Dreadnaught </Applicable_Unit_Types>
+				<Applicable_Unit_Types> Invincible_Cruiser, Generic_Victory_Destroyer, Dreadnaught, Dreadnaught_Lasers, Katana_Dreadnaught, Neutron_Star </Applicable_Unit_Types>
 				<Price_Reduction_Percentage>0.30</Price_Reduction_Percentage>
 				<Stacking_Category>0</Stacking_Category>
 			</Reduce_Production_Price_Ability>
@@ -275,7 +275,7 @@
 			<Reduce_Production_Time_Ability Name="Rendili_Production_Time_Bonus">
 				<Unit_Strength_Category />
 				<Applicable_Unit_Categories></Applicable_Unit_Categories>
-				<Applicable_Unit_Types> Invincible_Cruiser, Generic_Victory_Destroyer, Dreadnaught, Dreadnaught_Lasers, Katana_Dreadnaught </Applicable_Unit_Types>
+				<Applicable_Unit_Types> Invincible_Cruiser, Generic_Victory_Destroyer, Dreadnaught, Dreadnaught_Lasers, Katana_Dreadnaught, Neutron_Star </Applicable_Unit_Types>
 
 				<Time_Reduction_Percentage>0.30</Time_Reduction_Percentage>
 				<Stacking_Category>9</Stacking_Category>

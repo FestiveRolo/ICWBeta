@@ -152,7 +152,7 @@ function Begin_GC(message)
 				{
 					Owner="Empire",
 					StartingForces={
-						"Clonetrooper_Phase_One_Team",
+						"PDF_Soldier_Team",
 						"Imperial_ATPT_Squad",
 						"Empire_MoffPalace",
 						"E_Ground_Barracks",
@@ -305,7 +305,7 @@ function Begin_GC(message)
 				{
 					Owner="Empire",
 					StartingForces={
-						listOf(3,"Clonetrooper_Phase_One_Team"),
+						listOf(3,"PDF_Soldier_Team"),
 						"ARC_Phase_One_Team",
 						"AT_RT_Squad",
 						"Empire_MoffPalace",
@@ -317,8 +317,9 @@ function Begin_GC(message)
 				{
 					Owner="Empire",
 					StartingForces={
-						listOf(3,"Clonetrooper_Phase_One_Team"),
+						listOf(2,"Clonetrooper_Phase_One_Team"),
 						"ARC_Phase_One_Team",
+						"PDF_Soldier_Team",						
 						"AT_RT_Squad",
 						"Empire_MoffPalace",
 						listOf(2,"E_Ground_Barracks"),
@@ -442,7 +443,7 @@ function Begin_GC(message)
 				{
 					Owner="Empire",
 					StartingForces={
-						"Clonetrooper_Phase_One_Team",
+						"PDF_Soldier_Team",
 						"E_Ground_Barracks",
 						"Empire_MoffPalace",
 						"Dreadnaught_Lasers",
@@ -453,7 +454,7 @@ function Begin_GC(message)
 				{
 					Owner="Empire",
 					StartingForces={
-						"Clonetrooper_Phase_One_Team",
+						"PDF_Soldier_Team",
 						"E_Ground_Barracks",
 						"Empire_MoffPalace",
 						"Dreadnaught_Lasers",
@@ -464,7 +465,7 @@ function Begin_GC(message)
 				{
 					Owner="Empire",
 					StartingForces={
-						"Clonetrooper_Phase_One_Team",
+						"PDF_Soldier_Team",
 						"E_Ground_Barracks",
 						"Empire_MoffPalace",
 						"Dreadnaught_Lasers",
@@ -475,7 +476,7 @@ function Begin_GC(message)
 				{
 					Owner="Empire",
 					StartingForces={
-						"Clonetrooper_Phase_One_Team",
+						"PDF_Soldier_Team",
 						"E_Ground_Barracks",
 						"Empire_MoffPalace",
 						"Dreadnaught_Lasers",
@@ -486,7 +487,7 @@ function Begin_GC(message)
 				{
 					Owner="Empire",
 					StartingForces={
-						"Clonetrooper_Phase_One_Team",
+						"PDF_Soldier_Team",
 						"E_Ground_Barracks",
 						"Empire_MoffPalace",
 						"Dreadnaught_Lasers",
@@ -742,7 +743,7 @@ function Begin_GC(message)
 					Owner="Empire",
 					StartingForces={
 						"Carrack_Cruiser_Lasers",
-						listOf(2,"Clonetrooper_Phase_One_Team"),
+						listOf(2,"PDF_Soldier_Team"),
 						"E_Ground_Barracks",
 						"Empire_MoffPalace",
 						"Dreadnaught_Lasers",
@@ -755,7 +756,7 @@ function Begin_GC(message)
 					Owner="Empire",
 					StartingForces={
 						"Carrack_Cruiser_Lasers",
-						listOf(2,"Clonetrooper_Phase_One_Team"),
+						listOf(2,"PDF_Soldier_Team"),
 						"E_Ground_Barracks",
 						"Empire_MoffPalace",
 						"Dreadnaught_Lasers",
@@ -1013,7 +1014,7 @@ function Begin_GC(message)
 					Owner="Empire",
 					StartingForces={
 						"Generic_Acclamator_Assault_Ship_I",
-						"Clonetrooper_Phase_One_Team",
+						"PDF_Soldier_Team",
 						"Dreadnaught_Lasers",
 						"LAC",
 						"Remnant_Star_Base_2",
@@ -1025,7 +1026,7 @@ function Begin_GC(message)
 					Owner="Empire",
 					StartingForces={
 						"Generic_Acclamator_Assault_Ship_I",
-						"Clonetrooper_Phase_One_Team",
+						"PDF_Soldier_Team",
 						"Dreadnaught_Lasers",
 						"LAC",
 						"Remnant_Star_Base_2",
@@ -1211,7 +1212,7 @@ function Begin_GC(message)
 					Owner="Empire",
 					StartingForces={
 						"Arquitens",
-						"Clonetrooper_Phase_One_Team",
+						"PDF_Soldier_Team",
 						"E_Ground_Barracks",
 						"Empire_MoffPalace",
 						"LAAT_Group",
@@ -1222,7 +1223,7 @@ function Begin_GC(message)
 					Owner="Empire",
 					StartingForces={
 						"Arquitens",
-						"Clonetrooper_Phase_One_Team",
+						"PDF_Soldier_Team",
 						"E_Ground_Barracks",
 						"Empire_MoffPalace",
 						"LAAT_Group",
@@ -1267,7 +1268,7 @@ function Begin_GC(message)
 				{
 					Owner="Empire",
 					StartingForces={
-						"Clonetrooper_Phase_One_Team",
+						"PDF_Soldier_Team",
 						"E_Ground_Barracks",
 						"Empire_MoffPalace",
 						"LAAT_Group",
@@ -1277,7 +1278,7 @@ function Begin_GC(message)
 				{
 					Owner="Empire",
 					StartingForces={
-						"Clonetrooper_Phase_One_Team",
+						"PDF_Soldier_Team",
 						"E_Ground_Barracks",
 						"Empire_MoffPalace",
 						"LAAT_Group",
@@ -1322,8 +1323,8 @@ function Begin_GC(message)
 					Owner="Empire",
 					StartingForces={
 						listOf(2,"Arquitens"),
-						listOf(2,"Clonetrooper_Phase_One_Team"),
-						listOf(2,"Dreadnaught_Lasers"),
+						"Clonetrooper_Phase_One_Team",
+						"PDF_Soldier_Team",
 						listOf(2,"Republic_Heavy_Assault_Company"),
 						"A5_Juggernaut_Company",
 						"Corellian_Corvette",
@@ -1339,7 +1340,8 @@ function Begin_GC(message)
 					Owner="Empire",
 					StartingForces={
 						listOf(2,"Arquitens"),
-						listOf(2,"Clonetrooper_Phase_One_Team"),
+						"Clonetrooper_Phase_One_Team",
+						"PDF_Soldier_Team",						
 						listOf(2,"Dreadnaught_Lasers"),
 						listOf(2,"Republic_Heavy_Assault_Company"),
 						"A5_Juggernaut_Company",
@@ -1615,7 +1617,7 @@ function Begin_GC(message)
 				{
 					Owner="Empire",
 					StartingForces={
-						"Clonetrooper_Phase_One_Team",
+						"PDF_Soldier_Team",
 						"E_Ground_Barracks",
 						"Empire_MoffPalace",
 						"Remnant_Star_Base_1",
@@ -1624,7 +1626,7 @@ function Begin_GC(message)
 				{
 					Owner="Empire",
 					StartingForces={
-						"Clonetrooper_Phase_One_Team",
+						"PDF_Soldier_Team",
 						"E_Ground_Barracks",
 						"Empire_MoffPalace",
 						"Remnant_Star_Base_1",
@@ -1662,7 +1664,7 @@ function Begin_GC(message)
 				{
 					Owner="Empire",
 					StartingForces={
-						"Clonetrooper_Phase_One_Team",
+						"PDF_Soldier_Team",
 						"Corellian_Corvette",
 						"Speeder_Bike_Squad",
 						"Empire_MoffPalace",
@@ -1672,7 +1674,7 @@ function Begin_GC(message)
 				{
 					Owner="Empire",
 					StartingForces={
-						"Clonetrooper_Phase_One_Team",
+						"PDF_Soldier_Team",
 						"Corellian_Corvette",
 						"Speeder_Bike_Squad",
 						"Empire_MoffPalace",
@@ -1838,7 +1840,7 @@ function Begin_GC(message)
 				{
 					Owner="Empire",
 					StartingForces={
-						"Clonetrooper_Phase_One_Team",
+						"PDF_Soldier_Team",
 						"Generic_Acclamator_Assault_Ship_I",
 						"Corellian_Corvette",
 						"Dreadnaught_Lasers",
@@ -1851,7 +1853,7 @@ function Begin_GC(message)
 				{
 					Owner="Empire",
 					StartingForces={
-						"Clonetrooper_Phase_One_Team",
+						"PDF_Soldier_Team",
 						"Generic_Acclamator_Assault_Ship_I",
 						"Corellian_Corvette",
 						"Dreadnaught_Lasers",
@@ -2286,7 +2288,7 @@ function Begin_GC(message)
 				{
 					Owner="Empire",
 					StartingForces={
-						"Clonetrooper_Phase_One_Team",
+						"PDF_Soldier_Team",
 						"Corellian_Corvette",
 						"Arquitens",
 						"E_Ground_Barracks",
@@ -2299,7 +2301,7 @@ function Begin_GC(message)
 				{
 					Owner="Empire",
 					StartingForces={
-						"Clonetrooper_Phase_One_Team",
+						"PDF_Soldier_Team",
 						"Corellian_Corvette",
 						"Arquitens",
 						"E_Ground_Barracks",
@@ -2356,7 +2358,7 @@ function Begin_GC(message)
 						listOf(4,"Corellian_Corvette"),
 						listOf(3,"Corellian_Gunboat"),
 						listOf(2,"Dreadnaught_Lasers"),
-						listOf(2,"Clonetrooper_Phase_One_Team"),
+						listOf(2,"PDF_Soldier_Team"),
 						listOf(2,"Imperial_ATPT_Squad"),
 						"A5_Juggernaut_Company",
 						"E_Ground_Barracks",
@@ -2373,7 +2375,7 @@ function Begin_GC(message)
 						listOf(4,"Corellian_Corvette"),
 						listOf(3,"Corellian_Gunboat"),
 						listOf(2,"Dreadnaught_Lasers"),
-						listOf(2,"Clonetrooper_Phase_One_Team"),
+						listOf(2,"PDF_Soldier_Team"),
 						listOf(2,"Imperial_ATPT_Squad"),
 						"A5_Juggernaut_Company",
 						"E_Ground_Barracks",
@@ -2390,7 +2392,7 @@ function Begin_GC(message)
 						listOf(3,"Corellian_Corvette"),
 						listOf(2,"Corellian_Gunboat"),
 						"Generic_Acclamator_Assault_Ship_I",
-						listOf(2,"Clonetrooper_Phase_One_Team"),
+						listOf(2,"PDF_Soldier_Team"),
 						listOf(2,"Imperial_ATPT_Squad"),
 						"A5_Juggernaut_Company",
 						"E_Ground_Barracks",
@@ -2441,7 +2443,7 @@ function Begin_GC(message)
 				{
 					Owner="Empire",
 					StartingForces={
-						"Clonetrooper_Phase_One_Team",
+						"PDF_Soldier_Team",
 						"Speeder_Bike_Squad",
 						"E_Ground_Barracks",
 						"Empire_MoffPalace",
@@ -2454,7 +2456,7 @@ function Begin_GC(message)
 				{
 					Owner="Empire",
 					StartingForces={
-						"Clonetrooper_Phase_One_Team",
+						"PDF_Soldier_Team",
 						"Speeder_Bike_Squad",
 						"E_Ground_Barracks",
 						"Empire_MoffPalace",
@@ -2467,7 +2469,7 @@ function Begin_GC(message)
 				{
 					Owner="Empire",
 					StartingForces={
-						"Clonetrooper_Phase_One_Team",
+						"PDF_Soldier_Team",
 						"Speeder_Bike_Squad",
 						"E_Ground_Barracks",
 						"Empire_MoffPalace",
@@ -2686,7 +2688,7 @@ function Begin_GC(message)
 				{
 					Owner="Empire",
 					StartingForces={
-						"Clonetrooper_Phase_One_Team",
+						"PDF_Soldier_Team",
 						"LAC",
 						"Carrack_Cruiser_Lasers",
 						"E_Ground_Barracks",
@@ -2698,7 +2700,7 @@ function Begin_GC(message)
 				{
 					Owner="Empire",
 					StartingForces={
-						"Clonetrooper_Phase_One_Team",
+						"PDF_Soldier_Team",
 						"LAC",
 						"Carrack_Cruiser_Lasers",
 						"E_Ground_Barracks",
@@ -2710,7 +2712,7 @@ function Begin_GC(message)
 				{
 					Owner="Empire",
 					StartingForces={
-						"Clonetrooper_Phase_One_Team",
+						"PDF_Soldier_Team",
 						"LAC",
 						"Carrack_Cruiser_Lasers",
 						"E_Ground_Barracks",
@@ -2722,7 +2724,7 @@ function Begin_GC(message)
 				{
 					Owner="Empire",
 					StartingForces={
-						"Clonetrooper_Phase_One_Team",
+						"PDF_Soldier_Team",
 						"LAC",
 						"Carrack_Cruiser_Lasers",
 						"E_Ground_Barracks",
@@ -2734,7 +2736,7 @@ function Begin_GC(message)
 				{
 					Owner="Empire",
 					StartingForces={
-						"Clonetrooper_Phase_One_Team",
+						"PDF_Soldier_Team",
 						"LAC",
 						"Carrack_Cruiser_Lasers",
 						"E_Ground_Barracks",
@@ -3109,7 +3111,7 @@ function Begin_GC(message)
 				{
 					Owner="Empire",
 					StartingForces={
-						"Clonetrooper_Phase_One_Team",
+						"PDF_Soldier_Team",
 						"E_Ground_Barracks",
 						"Empire_MoffPalace",
 						"Imperial_IFTX_Group",
@@ -3120,7 +3122,7 @@ function Begin_GC(message)
 				{
 					Owner="Empire",
 					StartingForces={
-						"Clonetrooper_Phase_One_Team",
+						"PDF_Soldier_Team",
 						"E_Ground_Barracks",
 						"Empire_MoffPalace",
 						"Imperial_IFTX_Group",
@@ -3294,7 +3296,7 @@ function Begin_GC(message)
 				{
 					Owner="Empire",
 					StartingForces={
-						"Clonetrooper_Phase_One_Team",
+						"PDF_Soldier_Team",
 						"Corellian_Corvette",
 						"E_Ground_Barracks",
 						"Empire_MoffPalace",
@@ -3703,7 +3705,7 @@ function Begin_GC(message)
 						"Arquitens",
 						listOf(2,"Corellian_Corvette"),
 						listOf(2,"Dreadnaught_Lasers"),
-						"Clonetrooper_Phase_One_Team",
+						"PDF_Soldier_Team",
 						"Carrack_Cruiser_Lasers",
 						"E_Ground_Light_Vehicle_Factory",
 						"E_Ground_Heavy_Vehicle_Factory",
@@ -3720,7 +3722,7 @@ function Begin_GC(message)
 						"Arquitens",
 						listOf(2,"Corellian_Corvette"),
 						listOf(2,"Dreadnaught_Lasers"),
-						"Clonetrooper_Phase_One_Team",
+						"PDF_Soldier_Team",
 						"Carrack_Cruiser_Lasers",
 						"E_Ground_Light_Vehicle_Factory",
 						"E_Ground_Heavy_Vehicle_Factory",
@@ -3765,7 +3767,7 @@ function Begin_GC(message)
 						"Arquitens",
 						listOf(2,"Corellian_Corvette"),
 						listOf(2,"Dreadnaught_Lasers"),
-						"Clonetrooper_Phase_One_Team",
+						"PDF_Soldier_Team",
 						"Carrack_Cruiser_Lasers",
 						"E_Ground_Light_Vehicle_Factory",
 						"E_Ground_Heavy_Vehicle_Factory",
@@ -3784,7 +3786,7 @@ function Begin_GC(message)
 						"Arquitens",
 						listOf(3,"LAC"),
 						listOf(3,"Dreadnaught_Lasers"),
-						listOf(2,"Clonetrooper_Phase_One_Team"),
+						listOf(2,"PDF_Soldier_Team"),
 						listOf(2,"Carrack_Cruiser_Lasers"),
 						"E_Ground_Barracks",
 						"E_Ground_Light_Vehicle_Factory",
@@ -3801,7 +3803,7 @@ function Begin_GC(message)
 						"Arquitens",
 						listOf(3,"LAC"),
 						listOf(3,"Dreadnaught_Lasers"),
-						listOf(2,"Clonetrooper_Phase_One_Team"),
+						listOf(2,"PDF_Soldier_Team"),
 						listOf(2,"Carrack_Cruiser_Lasers"),
 						"E_Ground_Barracks",
 						"E_Ground_Light_Vehicle_Factory",
@@ -4298,7 +4300,7 @@ function Begin_GC(message)
 				{
 					Owner="Empire",
 					StartingForces={
-						"Clonetrooper_Phase_One_Team",
+						"PDF_Soldier_Team",
 						"A5_Juggernaut_Company",
 						"Carrack_Cruiser_Lasers",
 						"E_Ground_Barracks",
@@ -4309,7 +4311,7 @@ function Begin_GC(message)
 				{
 					Owner="Empire",
 					StartingForces={
-						"Clonetrooper_Phase_One_Team",
+						"PDF_Soldier_Team",
 						"A5_Juggernaut_Company",
 						"Carrack_Cruiser_Lasers",
 						"E_Ground_Barracks",
@@ -4337,7 +4339,7 @@ function Begin_GC(message)
 				{
 					Owner="Empire",
 					StartingForces={
-						"Clonetrooper_Phase_One_Team",
+						"PDF_Soldier_Team",
 						"A5_Juggernaut_Company",
 						"Carrack_Cruiser_Lasers",
 						"E_Ground_Barracks",
@@ -4451,7 +4453,7 @@ function Begin_GC(message)
 				{
 					Owner="Empire",
 					StartingForces={
-						listOf(2,"Clonetrooper_Phase_One_Team"),
+						listOf(2,"PDF_Soldier_Team"),
 						"Corellian_Gunboat",
 						"Carrack_Cruiser_Lasers",
 						"E_Ground_Barracks",
@@ -4465,7 +4467,7 @@ function Begin_GC(message)
 				{
 					Owner="Empire",
 					StartingForces={
-						listOf(2,"Clonetrooper_Phase_One_Team"),
+						listOf(2,"PDF_Soldier_Team"),
 						"Corellian_Gunboat",
 						"Carrack_Cruiser_Lasers",
 						"E_Ground_Barracks",
@@ -4505,7 +4507,7 @@ function Begin_GC(message)
 				{
 					Owner="Empire",
 					StartingForces={
-						listOf(2,"Clonetrooper_Phase_One_Team"),
+						listOf(2,"PDF_Soldier_Team"),
 						"Corellian_Gunboat",
 						"Carrack_Cruiser_Lasers",
 						"E_Ground_Barracks",
@@ -4521,7 +4523,7 @@ function Begin_GC(message)
 				{
 					Owner="Empire",
 					StartingForces={
-						listOf(2,"Clonetrooper_Phase_One_Team"),
+						listOf(2,"PDF_Soldier_Team"),
 						listOf(2,"Corellian_Corvette"),
 						"Arquitens",
 						"Carrack_Cruiser_Lasers",
@@ -4536,7 +4538,7 @@ function Begin_GC(message)
 				{
 					Owner="Empire",
 					StartingForces={
-						listOf(2,"Clonetrooper_Phase_One_Team"),
+						listOf(2,"PDF_Soldier_Team"),
 						listOf(2,"Corellian_Corvette"),
 						"Arquitens",
 						"Carrack_Cruiser_Lasers",
@@ -4582,7 +4584,7 @@ function Begin_GC(message)
 				{
 					Owner="Empire",
 					StartingForces={
-						listOf(2,"Clonetrooper_Phase_One_Team"),
+						listOf(2,"PDF_Soldier_Team"),
 						listOf(2,"Corellian_Corvette"),
 						"Arquitens",
 						"Carrack_Cruiser_Lasers",
@@ -4602,7 +4604,7 @@ function Begin_GC(message)
 						"Arquitens",
 						listOf(2,"Corellian_Corvette"),
 						"Carrack_Cruiser_Lasers",
-						listOf(3,"Clonetrooper_Phase_One_Team"),
+						listOf(3,"PDF_Soldier_Team"),
 						"Dreadnaught_Lasers",
 						"E_Ground_Heavy_Vehicle_Factory",
 						"E_Ground_Light_Vehicle_Factory",
@@ -4621,7 +4623,7 @@ function Begin_GC(message)
 						"Arquitens",
 						listOf(2,"Corellian_Corvette"),
 						"Carrack_Cruiser_Lasers",
-						listOf(3,"Clonetrooper_Phase_One_Team"),
+						listOf(3,"PDF_Soldier_Team"),
 						"Dreadnaught_Lasers",
 						"E_Ground_Heavy_Vehicle_Factory",
 						"E_Ground_Light_Vehicle_Factory",
@@ -4781,7 +4783,7 @@ function Begin_GC(message)
 				{
 					Owner="Empire",
 					StartingForces={
-						listOf(2,"Clonetrooper_Phase_One_Team"),
+						listOf(2,"PDF_Soldier_Team"),
 						listOf(2,"Corellian_Corvette"),
 						listOf(2,"Corellian_Gunboat"),
 						"Carrack_Cruiser_Lasers",
@@ -4796,7 +4798,7 @@ function Begin_GC(message)
 				{
 					Owner="Empire",
 					StartingForces={
-						listOf(2,"Clonetrooper_Phase_One_Team"),
+						listOf(2,"PDF_Soldier_Team"),
 						listOf(2,"Corellian_Corvette"),
 						listOf(2,"Corellian_Gunboat"),
 						"Carrack_Cruiser_Lasers",
@@ -5614,8 +5616,9 @@ function Begin_GC(message)
 					StartingForces={
 						listOf(2,"Generic_Acclamator_Assault_Ship_Leveler"),
 						listOf(4,"Arquitens"),
-						listOf(3,"Clonetrooper_Phase_One_Team"),
+						listOf(2,"PDF_Soldier_Team"),
 						listOf(2,"A5_Juggernaut_Company"),
+						"Clonetrooper_Phase_One_Team",
 						"E_Ground_Barracks",
 						"E_Ground_Light_Vehicle_Factory",
 						"E_Ground_Heavy_Vehicle_Factory",
@@ -5632,8 +5635,9 @@ function Begin_GC(message)
 					StartingForces={
 						listOf(2,"Generic_Acclamator_Assault_Ship_Leveler"),
 						listOf(4,"Arquitens"),
-						listOf(3,"Clonetrooper_Phase_One_Team"),
+						listOf(2,"PDF_Soldier_Team"),
 						listOf(2,"A5_Juggernaut_Company"),
+						"Clonetrooper_Phase_One_Team",
 						"E_Ground_Barracks",
 						"E_Ground_Light_Vehicle_Factory",
 						"E_Ground_Heavy_Vehicle_Factory",

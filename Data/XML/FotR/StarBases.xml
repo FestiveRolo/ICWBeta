@@ -201,17 +201,17 @@
 		<Starting_Spawned_Units_Tech_2>Skirmish_Dreadnaught, 2</Starting_Spawned_Units_Tech_2> <!-- 2 X-wing squadrons at a time -->
 		<Reserve_Spawned_Units_Tech_2>Skirmish_Dreadnaught, 1</Reserve_Spawned_Units_Tech_2> <!-- -1 == no limit -->
 
-		<Starting_Spawned_Units_Tech_3>Twin_Ion_Engine_Starfighter_Squadron, 3</Starting_Spawned_Units_Tech_3> <!-- 2 X-wing squadrons at a time -->
-		<Reserve_Spawned_Units_Tech_3>Twin_Ion_Engine_Starfighter_Squadron, -1</Reserve_Spawned_Units_Tech_3> <!-- -1 == no limit -->
+		<Starting_Spawned_Units_Tech_4>Twin_Ion_Engine_Starfighter_Squadron, 3</Starting_Spawned_Units_Tech_4> <!-- 2 X-wing squadrons at a time -->
+		<Reserve_Spawned_Units_Tech_4>Twin_Ion_Engine_Starfighter_Squadron, -1</Reserve_Spawned_Units_Tech_4> <!-- -1 == no limit -->
 
-		<Starting_Spawned_Units_Tech_3>BTLB_Y-WING_SQUADRON, 2</Starting_Spawned_Units_Tech_3> <!-- 2 X-wing squadrons at a time -->
-		<Reserve_Spawned_Units_Tech_3>BTLB_Y-WING_SQUADRON, -1</Reserve_Spawned_Units_Tech_3> <!-- -1 == no limit -->
+		<Starting_Spawned_Units_Tech_4>BTLB_Y-WING_SQUADRON, 2</Starting_Spawned_Units_Tech_4> <!-- 2 X-wing squadrons at a time -->
+		<Reserve_Spawned_Units_Tech_4>BTLB_Y-WING_SQUADRON, -1</Reserve_Spawned_Units_Tech_4> <!-- -1 == no limit -->
 
-		<Starting_Spawned_Units_Tech_3>Skirmish_LAC, 2</Starting_Spawned_Units_Tech_3> <!-- 2 X-wing squadrons at a time -->
-		<Reserve_Spawned_Units_Tech_3>Skirmish_LAC, 1</Reserve_Spawned_Units_Tech_3> <!-- -1 == no limit -->
+		<Starting_Spawned_Units_Tech_4>Skirmish_LAC, 2</Starting_Spawned_Units_Tech_4> <!-- 2 X-wing squadrons at a time -->
+		<Reserve_Spawned_Units_Tech_4>Skirmish_LAC, 1</Reserve_Spawned_Units_Tech_4> <!-- -1 == no limit -->
 
-		<Starting_Spawned_Units_Tech_3>Skirmish_Dreadnaught, 2</Starting_Spawned_Units_Tech_3> <!-- 2 X-wing squadrons at a time -->
-		<Reserve_Spawned_Units_Tech_3>Skirmish_Dreadnaught, 2</Reserve_Spawned_Units_Tech_3> <!-- -1 == no limit -->
+		<Starting_Spawned_Units_Tech_4>Skirmish_Dreadnaught, 2</Starting_Spawned_Units_Tech_4> <!-- 2 X-wing squadrons at a time -->
+		<Reserve_Spawned_Units_Tech_4>Skirmish_Dreadnaught, 2</Reserve_Spawned_Units_Tech_4> <!-- -1 == no limit -->
 
 
 
@@ -256,20 +256,20 @@
 		<Starting_Spawned_Units_Tech_2>Skirmish_Invincible, 1</Starting_Spawned_Units_Tech_2> <!-- 2 X-wing squadrons at a time -->
 		<Reserve_Spawned_Units_Tech_2>Skirmish_Invincible, 1</Reserve_Spawned_Units_Tech_2> <!-- -1 == no limit -->
 
-		<Starting_Spawned_Units_Tech_3>Twin_Ion_Engine_Starfighter_Squadron, 3</Starting_Spawned_Units_Tech_3> <!-- 2 X-wing squadrons at a time -->
-		<Reserve_Spawned_Units_Tech_3>Twin_Ion_Engine_Starfighter_Squadron, -1</Reserve_Spawned_Units_Tech_3> <!-- -1 == no limit -->
+		<Starting_Spawned_Units_Tech_4>Twin_Ion_Engine_Starfighter_Squadron, 3</Starting_Spawned_Units_Tech_4> <!-- 2 X-wing squadrons at a time -->
+		<Reserve_Spawned_Units_Tech_4>Twin_Ion_Engine_Starfighter_Squadron, -1</Reserve_Spawned_Units_Tech_4> <!-- -1 == no limit -->
 
-		<Starting_Spawned_Units_Tech_3>BTLB_Y-WING_SQUADRON, 2</Starting_Spawned_Units_Tech_3> <!-- 2 X-wing squadrons at a time -->
-		<Reserve_Spawned_Units_Tech_3>BTLB_Y-WING_SQUADRON, -1</Reserve_Spawned_Units_Tech_3> <!-- -1 == no limit -->
+		<Starting_Spawned_Units_Tech_4>BTLB_Y-WING_SQUADRON, 2</Starting_Spawned_Units_Tech_4> <!-- 2 X-wing squadrons at a time -->
+		<Reserve_Spawned_Units_Tech_4>BTLB_Y-WING_SQUADRON, -1</Reserve_Spawned_Units_Tech_4> <!-- -1 == no limit -->
 
-		<Starting_Spawned_Units_Tech_3>Skirmish_LAC, 2</Starting_Spawned_Units_Tech_3> <!-- 2 X-wing squadrons at a time -->
-		<Reserve_Spawned_Units_Tech_3>Skirmish_LAC, 1</Reserve_Spawned_Units_Tech_3> <!-- -1 == no limit -->
+		<Starting_Spawned_Units_Tech_4>Skirmish_LAC, 2</Starting_Spawned_Units_Tech_4> <!-- 2 X-wing squadrons at a time -->
+		<Reserve_Spawned_Units_Tech_4>Skirmish_LAC, 1</Reserve_Spawned_Units_Tech_4> <!-- -1 == no limit -->
 
-		<Starting_Spawned_Units_Tech_3>Skirmish_Carrack_Cruiser_Lasers, 2</Starting_Spawned_Units_Tech_3> <!-- 2 X-wing squadrons at a time -->
-		<Reserve_Spawned_Units_Tech_3>Skirmish_Carrack_Cruiser_Lasers, 1</Reserve_Spawned_Units_Tech_3> <!-- -1 == no limit -->
+		<Starting_Spawned_Units_Tech_4>Skirmish_Carrack_Cruiser_Lasers, 2</Starting_Spawned_Units_Tech_4> <!-- 2 X-wing squadrons at a time -->
+		<Reserve_Spawned_Units_Tech_4>Skirmish_Carrack_Cruiser_Lasers, 1</Reserve_Spawned_Units_Tech_4> <!-- -1 == no limit -->
 
-		<Starting_Spawned_Units_Tech_3>Skirmish_Venator, 1</Starting_Spawned_Units_Tech_3> <!-- 2 X-wing squadrons at a time -->
-		<Reserve_Spawned_Units_Tech_3>Skirmish_Venator, 1</Reserve_Spawned_Units_Tech_3> <!-- -1 == no limit -->
+		<Starting_Spawned_Units_Tech_4>Skirmish_Venator, 1</Starting_Spawned_Units_Tech_4> <!-- 2 X-wing squadrons at a time -->
+		<Reserve_Spawned_Units_Tech_4>Skirmish_Venator, 1</Reserve_Spawned_Units_Tech_4> <!-- -1 == no limit -->
 
 
 		<Tactical_Buildable_Objects_Campaign>
@@ -322,24 +322,147 @@
 		<Starting_Spawned_Units_Tech_2>Skirmish_Invincible, 1</Starting_Spawned_Units_Tech_2> <!-- 2 X-wing squadrons at a time -->
 		<Reserve_Spawned_Units_Tech_2>Skirmish_Invincible, 1</Reserve_Spawned_Units_Tech_2> <!-- -1 == no limit -->
 
-		<Starting_Spawned_Units_Tech_3>Twin_Ion_Engine_Starfighter_Squadron, 3</Starting_Spawned_Units_Tech_3> <!-- 2 X-wing squadrons at a time -->
-		<Reserve_Spawned_Units_Tech_3>Twin_Ion_Engine_Starfighter_Squadron, -1</Reserve_Spawned_Units_Tech_3> <!-- -1 == no limit -->
+		<Starting_Spawned_Units_Tech_4>Twin_Ion_Engine_Starfighter_Squadron, 3</Starting_Spawned_Units_Tech_4> <!-- 2 X-wing squadrons at a time -->
+		<Reserve_Spawned_Units_Tech_4>Twin_Ion_Engine_Starfighter_Squadron, -1</Reserve_Spawned_Units_Tech_4> <!-- -1 == no limit -->
 
-		<Starting_Spawned_Units_Tech_3>BTLB_Y-WING_SQUADRON, 2</Starting_Spawned_Units_Tech_3> <!-- 2 X-wing squadrons at a time -->
-		<Reserve_Spawned_Units_Tech_3>BTLB_Y-WING_SQUADRON, -1</Reserve_Spawned_Units_Tech_3> <!-- -1 == no limit -->
+		<Starting_Spawned_Units_Tech_4>BTLB_Y-WING_SQUADRON, 2</Starting_Spawned_Units_Tech_4> <!-- 2 X-wing squadrons at a time -->
+		<Reserve_Spawned_Units_Tech_4>BTLB_Y-WING_SQUADRON, -1</Reserve_Spawned_Units_Tech_4> <!-- -1 == no limit -->
 
-		<Starting_Spawned_Units_Tech_3>Skirmish_LAC, 2</Starting_Spawned_Units_Tech_3> <!-- 2 X-wing squadrons at a time -->
-		<Reserve_Spawned_Units_Tech_3>Skirmish_LAC, 1</Reserve_Spawned_Units_Tech_3> <!-- -1 == no limit -->
+		<Starting_Spawned_Units_Tech_4>Skirmish_LAC, 2</Starting_Spawned_Units_Tech_4> <!-- 2 X-wing squadrons at a time -->
+		<Reserve_Spawned_Units_Tech_4>Skirmish_LAC, 1</Reserve_Spawned_Units_Tech_4> <!-- -1 == no limit -->
 
-		<Starting_Spawned_Units_Tech_3>Skirmish_Carrack_Cruiser_Lasers, 2</Starting_Spawned_Units_Tech_3> <!-- 2 X-wing squadrons at a time -->
-		<Reserve_Spawned_Units_Tech_3>Skirmish_Carrack_Cruiser_Lasers, 1</Reserve_Spawned_Units_Tech_3> <!-- -1 == no limit -->
+		<Starting_Spawned_Units_Tech_4>Skirmish_Carrack_Cruiser_Lasers, 2</Starting_Spawned_Units_Tech_4> <!-- 2 X-wing squadrons at a time -->
+		<Reserve_Spawned_Units_Tech_4>Skirmish_Carrack_Cruiser_Lasers, 1</Reserve_Spawned_Units_Tech_4> <!-- -1 == no limit -->
 
-		<Starting_Spawned_Units_Tech_3>Skirmish_Venator, 1</Starting_Spawned_Units_Tech_3> <!-- 2 X-wing squadrons at a time -->
-		<Reserve_Spawned_Units_Tech_3>Skirmish_Venator, 1</Reserve_Spawned_Units_Tech_3> <!-- -1 == no limit -->
+		<Starting_Spawned_Units_Tech_4>Skirmish_Venator, 1</Starting_Spawned_Units_Tech_4> <!-- 2 X-wing squadrons at a time -->
+		<Reserve_Spawned_Units_Tech_4>Skirmish_Venator, 1</Reserve_Spawned_Units_Tech_4> <!-- -1 == no limit -->
 
 
 		<Tactical_Buildable_Objects_Campaign>
 			Empire,
+				ES_Enhanced_Reactors_L1_Upgrade,
+				ES_Enhanced_Reactors_L2_Upgrade,
+				ES_Reinforced_Armor_L1_Upgrade,
+				ES_Reinforced_Armor_L2_Upgrade,
+				ES_Improved_Weapons_L1_Upgrade,
+				ES_Improved_Weapons_L2_Upgrade,
+				ES_Improved_Defenses_L1_Upgrade,
+		</Tactical_Buildable_Objects_Campaign>
+
+	</StarBase>
+
+	<StarBase Name="CSA_Star_Base_1">
+
+		<Variant_Of_Existing_Type>Generic_Star_Base_1</Variant_Of_Existing_Type>
+		<Affiliation>Corporate_Sector</Affiliation>
+		<Prev_Level_Base />
+		<Next_Level_Base>CSA_Star_Base_2</Next_Level_Base>
+
+		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
+		<Starting_Spawned_Units_Tech_0>Z95_Headhunter_Squadron, 3</Starting_Spawned_Units_Tech_0> <!-- 2 X-wing squadrons at a time -->
+		<Reserve_Spawned_Units_Tech_0>Z95_Headhunter_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
+
+		<Starting_Spawned_Units_Tech_0>BTLB_Y-Wing_Squadron, 1</Starting_Spawned_Units_Tech_0> <!-- 2 X-wing squadrons at a time -->
+		<Reserve_Spawned_Units_Tech_0>BTLB_Y-Wing_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
+
+		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+		<Space_FOW_Reveal_Range>20000.0</Space_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
+	
+	</StarBase>
+
+	<StarBase Name="CSA_Star_Base_2">
+
+		<Variant_Of_Existing_Type>Generic_Star_Base_2</Variant_Of_Existing_Type>
+		<Affiliation>Corporate_Sector</Affiliation>
+		<Prev_Level_Base>CSA_Star_Base_1</Prev_Level_Base>
+		<Next_Level_Base>CSA_Star_Base_3</Next_Level_Base>
+
+		<Tactical_Buildable_Objects_Campaign>
+			Corporate_Sector,
+				ES_Enhanced_Reactors_L1_Upgrade,
+				ES_Reinforced_Armor_L1_Upgrade,
+				ES_Improved_Weapons_L1_Upgrade,
+		</Tactical_Buildable_Objects_Campaign>
+
+		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
+		<Starting_Spawned_Units_Tech_0>Z95_Headhunter_Squadron, 3</Starting_Spawned_Units_Tech_0> <!-- 2 X-wing squadrons at a time -->
+		<Reserve_Spawned_Units_Tech_0>Z95_Headhunter_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
+
+		<Starting_Spawned_Units_Tech_0>BTLB_Y-Wing_Squadron, 2</Starting_Spawned_Units_Tech_0> <!-- 2 X-wing squadrons at a time -->
+		<Reserve_Spawned_Units_Tech_0>BTLB_Y-Wing_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
+
+		<Starting_Spawned_Units_Tech_0>Skirmish_LAC, 2</Starting_Spawned_Units_Tech_0> <!-- 2 X-wing squadrons at a time -->
+		<Reserve_Spawned_Units_Tech_0>Skirmish_LAC, 1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
+
+		<Starting_Spawned_Units_Tech_0>Skirmish_Dreadnaught, 2</Starting_Spawned_Units_Tech_0> <!-- 2 X-wing squadrons at a time -->
+		<Reserve_Spawned_Units_Tech_0>Skirmish_Dreadnaught, 2</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
+
+	</StarBase>
+
+	<StarBase Name="CSA_Star_Base_3">
+
+		<Variant_Of_Existing_Type>Generic_Star_Base_3</Variant_Of_Existing_Type>
+		<Affiliation>Corporate_Sector</Affiliation>
+		<Prev_Level_Base>CSA_Star_Base_2</Prev_Level_Base>
+		<Next_Level_Base>CSA_Star_Base_4</Next_Level_Base>
+
+		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
+		<Starting_Spawned_Units_Tech_0>Z95_Headhunter_Squadron, 3</Starting_Spawned_Units_Tech_0> <!-- 2 X-wing squadrons at a time -->
+		<Reserve_Spawned_Units_Tech_0>Z95_Headhunter_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
+
+		<Starting_Spawned_Units_Tech_0>BTLB_Y-Wing_Squadron, 2</Starting_Spawned_Units_Tech_0> <!-- 2 X-wing squadrons at a time -->
+		<Reserve_Spawned_Units_Tech_0>BTLB_Y-Wing_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
+
+		<Starting_Spawned_Units_Tech_0>Skirmish_LAC, 2</Starting_Spawned_Units_Tech_0> <!-- 2 X-wing squadrons at a time -->
+		<Reserve_Spawned_Units_Tech_0>Skirmish_LAC, 1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
+
+		<Starting_Spawned_Units_Tech_0>Skirmish_Dreadnaught, 4</Starting_Spawned_Units_Tech_0> <!-- 2 X-wing squadrons at a time -->
+		<Reserve_Spawned_Units_Tech_0>Skirmish_Dreadnaught, 4</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
+		
+		
+
+
+
+		<Tactical_Buildable_Objects_Campaign>
+			Corporate_Sector,
+				ES_Enhanced_Reactors_L1_Upgrade,
+				ES_Enhanced_Reactors_L2_Upgrade,
+				ES_Reinforced_Armor_L1_Upgrade,
+				ES_Reinforced_Armor_L2_Upgrade,
+				ES_Improved_Weapons_L1_Upgrade,
+				ES_Improved_Weapons_L2_Upgrade,
+				ES_Improved_Defenses_L1_Upgrade,
+		</Tactical_Buildable_Objects_Campaign>
+
+	</StarBase>
+		
+	<StarBase Name="CSA_Star_Base_4">
+
+		<Variant_Of_Existing_Type>Generic_Star_Base_4</Variant_Of_Existing_Type>
+		<Affiliation>Corporate_Sector</Affiliation>
+		<Prev_Level_Base>CSA_Star_Base_3</Prev_Level_Base>
+		<Next_Level_Base></Next_Level_Base>
+
+		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
+		<Starting_Spawned_Units_Tech_0>Z95_Headhunter_Squadron, 3</Starting_Spawned_Units_Tech_0> <!-- 2 X-wing squadrons at a time -->
+		<Reserve_Spawned_Units_Tech_0>Z95_Headhunter_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
+
+		<Starting_Spawned_Units_Tech_0>BTLB_Y-Wing_Squadron, 2</Starting_Spawned_Units_Tech_0> <!-- 2 X-wing squadrons at a time -->
+		<Reserve_Spawned_Units_Tech_0>BTLB_Y-Wing_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
+
+		<Starting_Spawned_Units_Tech_0>Skirmish_LAC, 2</Starting_Spawned_Units_Tech_0> <!-- 2 X-wing squadrons at a time -->
+		<Reserve_Spawned_Units_Tech_0>Skirmish_LAC, 1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
+
+		<Starting_Spawned_Units_Tech_0>Skirmish_Dreadnaught, 4</Starting_Spawned_Units_Tech_0> <!-- 2 X-wing squadrons at a time -->
+		<Reserve_Spawned_Units_Tech_0>Skirmish_Dreadnaught, 4</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
+		
+		
+				<Starting_Spawned_Units_Tech_0>Skirmish_Invincible, 1</Starting_Spawned_Units_Tech_0> <!-- 2 X-wing squadrons at a time -->
+		<Reserve_Spawned_Units_Tech_0>Skirmish_Invincible, 1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
+
+		<Tactical_Buildable_Objects_Campaign>
+			Corporate_Sector,
 				ES_Enhanced_Reactors_L1_Upgrade,
 				ES_Enhanced_Reactors_L2_Upgrade,
 				ES_Reinforced_Armor_L1_Upgrade,

@@ -641,7 +641,40 @@
 		<Death_Explosions>Small_Explosion_Space</Death_Explosions>
 		<Death_SFXEvent_Start_Die>Unit_X_Wing_Death_SFX</Death_SFXEvent_Start_Die>
 		<Asteroid_Damage_Hit_Particles>Small_Damage_Space</Asteroid_Damage_Hit_Particles>
+		
+		<SFXEvent_Fire>Unit_Attack_rep_fighter</SFXEvent_Fire>
+		<SFXEvent_Select>Unit_Select_rep_fighter</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_rep_fighter</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_rep_fighter</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_rep_fighter</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_rep_fighter</SFXEvent_Guard>
+		<SFXEvent_Assist_Move> Unit_Assist_Move_rep_fighter </SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack> Unit_Assist_Attack_rep_fighter </SFXEvent_Assist_Attack>
+		<SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_rep_fighter </SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Nebula> Unit_Nebula_rep_fighter </SFXEvent_Move_Into_Nebula>
 
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_target_turret_rep_fighter</SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_target_turret_rep_fighter</SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_target_turret_rep_fighter</SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_target_turret_rep_fighter</SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_Attack_rep_fighter </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_Attack_rep_fighter </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_Attack_rep_fighter </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_FIGHTER_BAY, Unit_Attack_rep_fighter </SFXEvent_Attack_Hardpoint>
+		
+		
+		<Death_SFXEvent_Start_Die> Unit_Death_rep_fighter </Death_SFXEvent_Start_Die>  
+
+		<SFXEvent_Health_Low_Warning> Unit_low_health_rep_fighter </SFXEvent_Health_Low_Warning>
+		<SFXEvent_Health_Critical_Warning> Unit_critical_health_rep_fighter </SFXEvent_Health_Critical_Warning>
+		<SFXEvent_Enemy_Damaged_Health_Low_Warning> Unit_enemy_low_health_rep_fighter </SFXEvent_Enemy_Damaged_Health_Low_Warning>
+		<SFXEvent_Enemy_Damaged_Health_Critical_Warning> Unit_enemy_critical_health_rep_fighter </SFXEvent_Enemy_Damaged_Health_Critical_Warning>
+		<SFXEvent_Ambient_Moving> Unit_X_Wing_Fly_By </SFXEvent_Ambient_Moving>
+		<SFXEvent_Ambient_Moving_Min_Delay_Seconds> 5 </SFXEvent_Ambient_Moving_Min_Delay_Seconds>
+		<SFXEvent_Ambient_Moving_Max_Delay_Seconds> 10 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_X_Wing_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+		
+<!-- Note: Original TR VOs:
 		<SFXEvent_Fire>Unit_Attack_ARC170</SFXEvent_Fire>
 		<SFXEvent_Select>Unit_Select_ARC170</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_ARC170</SFXEvent_Move>
@@ -669,7 +702,7 @@
 		<SFXEvent_Ambient_Moving> Unit_X_Wing_Fly_By </SFXEvent_Ambient_Moving>
 		<SFXEvent_Ambient_Moving_Min_Delay_Seconds> 5 </SFXEvent_Ambient_Moving_Min_Delay_Seconds>
 		<SFXEvent_Ambient_Moving_Max_Delay_Seconds> 10 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>
-		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_X_Wing_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_X_Wing_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>-->
 
 		<CategoryMask> Fighter | AntiBomber</CategoryMask>
 		<Property_Flags> SmallShip </Property_Flags>
@@ -701,14 +734,16 @@
 				<Recharge_Seconds>55.0</Recharge_Seconds> 
 				<Expiration_Seconds>5.0</Expiration_Seconds>
 				<Effective_Radius>100.0</Effective_Radius> 
-                <SFXEvent_GUI_Unit_Ability_Activated> Unit_Jam_Sensors_On_Skipray </SFXEvent_GUI_Unit_Ability_Activated> 				
-				<SFXEvent_GUI_Unit_Ability_Deactivated> Unit_Jam_Sensors_Off_Skipray </SFXEvent_GUI_Unit_Ability_Deactivated> 
+                <SFXEvent_GUI_Unit_Ability_Activated> Unit_jammer_rep_fighter </SFXEvent_GUI_Unit_Ability_Activated> 				
+				<SFXEvent_GUI_Unit_Ability_Deactivated> Unit_jammer_rep_fighter </SFXEvent_GUI_Unit_Ability_Deactivated> 
 				<Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
 			</Unit_Ability>
 
 			<!-- Secondary ability -->
 			<Unit_Ability>
 				<Type>HUNT</Type>
+				<SFXEvent_GUI_Unit_Ability_Activated> Unit_hunt_rep_fighter </SFXEvent_GUI_Unit_Ability_Activated> 
+				<SFXEvent_Target_Ability> Unit_hunt_rep_fighter </SFXEvent_Target_Ability> 
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 
@@ -784,7 +819,7 @@
 
 		<SFXEvent_Build_Started>RHD_Build_Vehicle</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Unit_Canceled</SFXEvent_Build_Cancelled>
-		<SFXEvent_Build_Complete>Unit_Complete_ARC170</SFXEvent_Build_Complete>
+		<SFXEvent_Build_Complete>Unit_Complete_rep_fighter</SFXEvent_Build_Complete>
 
 		<FormationOrder>2</FormationOrder>
 		<Squadron_Formation_Error_Tolerance>10.0</Squadron_Formation_Error_Tolerance>
@@ -803,14 +838,16 @@
 				<Recharge_Seconds>55.0</Recharge_Seconds> 
 				<Expiration_Seconds>5.0</Expiration_Seconds>
 				<Effective_Radius>100.0</Effective_Radius> 
-                <SFXEvent_GUI_Unit_Ability_Activated> Unit_Jam_Sensors_On_Skipray </SFXEvent_GUI_Unit_Ability_Activated> 				
-				<SFXEvent_GUI_Unit_Ability_Deactivated> Unit_Jam_Sensors_Off_Skipray </SFXEvent_GUI_Unit_Ability_Deactivated> 
+                <SFXEvent_GUI_Unit_Ability_Activated> Unit_jammer_rep_fighter </SFXEvent_GUI_Unit_Ability_Activated> 				
+				<SFXEvent_GUI_Unit_Ability_Deactivated> Unit_jammer_rep_fighter </SFXEvent_GUI_Unit_Ability_Deactivated> 
 				<Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
 			</Unit_Ability>
 
 			<!-- Secondary ability -->
 			<Unit_Ability>
 				<Type>HUNT</Type>
+				<SFXEvent_GUI_Unit_Ability_Activated> Unit_hunt_rep_fighter </SFXEvent_GUI_Unit_Ability_Activated> 
+				<SFXEvent_Target_Ability> Unit_hunt_rep_fighter </SFXEvent_Target_Ability> 
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 
@@ -900,6 +937,34 @@
 		<Death_SFXEvent_Start_Die>Unit_TIE_Fighter_Death_SFX</Death_SFXEvent_Start_Die>
 		<Asteroid_Damage_Hit_Particles>Small_Damage_Space</Asteroid_Damage_Hit_Particles>
 
+		<SFXEvent_Fire>Unit_Attack_rep_fighter</SFXEvent_Fire>
+		<SFXEvent_Select>Unit_Select_rep_fighter</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_rep_fighter</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_rep_fighter</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_rep_fighter</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_rep_fighter</SFXEvent_Guard>
+		<SFXEvent_Assist_Move> Unit_Assist_Move_rep_fighter </SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack> Unit_Assist_Attack_rep_fighter </SFXEvent_Assist_Attack>
+		<SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_rep_fighter </SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Nebula> Unit_Nebula_rep_fighter </SFXEvent_Move_Into_Nebula>
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_target_turret_rep_fighter</SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_target_turret_rep_fighter</SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_target_turret_rep_fighter</SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_target_turret_rep_fighter</SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_Attack_rep_fighter </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_Attack_rep_fighter </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_Attack_rep_fighter </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_FIGHTER_BAY, Unit_Attack_rep_fighter </SFXEvent_Attack_Hardpoint>
+		
+		<Death_SFXEvent_Start_Die> Unit_Death_rep_fighter </Death_SFXEvent_Start_Die>  
+
+		<SFXEvent_Health_Low_Warning> Unit_low_health_rep_fighter </SFXEvent_Health_Low_Warning>
+		<SFXEvent_Health_Critical_Warning> Unit_critical_health_rep_fighter </SFXEvent_Health_Critical_Warning>
+		<SFXEvent_Enemy_Damaged_Health_Low_Warning> Unit_enemy_low_health_rep_fighter </SFXEvent_Enemy_Damaged_Health_Low_Warning>
+		<SFXEvent_Enemy_Damaged_Health_Critical_Warning> Unit_enemy_critical_health_rep_fighter </SFXEvent_Enemy_Damaged_Health_Critical_Warning>
+
+		<!-- Note Original TR VO: 
 		<SFXEvent_Fire> Unit_TIE_Fighter_Fire </SFXEvent_Fire>
 		<SFXEvent_Select> Unit_Select_TIE_Fighter </SFXEvent_Select>
 		<SFXEvent_Move> Unit_Move_TIE_Fighter </SFXEvent_Move>
@@ -920,7 +985,8 @@
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_TIE_Fighter </SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_TIE_Fighter </SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_ENGINES_TIE_Fighter </SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_HP_GRAV_TIE_Fighter </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_HP_GRAV_TIE_Fighter </SFXEvent_Attack_Hardpoint> 
+		-->
 
 		<!-- Test: Each TIE fighter will play a 3D ambient "flyby" sound every X to Y seconds -->
 		<!-- Note: To invoke SFXEvent_Ambient, AMBIENT_SFX behavior needs to be added to the behavior list -->
@@ -962,6 +1028,8 @@
 			<!-- Primary ability -->
 			<Unit_Ability>
 				<Type>HUNT</Type>
+				<SFXEvent_GUI_Unit_Ability_Activated> Unit_hunt_rep_fighter </SFXEvent_GUI_Unit_Ability_Activated> 
+				<SFXEvent_Target_Ability> Unit_hunt_rep_fighter </SFXEvent_Target_Ability> 
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 	</SpaceUnit>
@@ -1008,7 +1076,7 @@
 
 		<SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Unit_Canceled</SFXEvent_Build_Cancelled>
-		<SFXEvent_Build_Complete>Unit_Complete_Tie_Defender</SFXEvent_Build_Complete>
+		<SFXEvent_Build_Complete>Unit_Complete_rep_fighter</SFXEvent_Build_Complete>
 
 		<FormationOrder>1</FormationOrder>
 		<Squadron_Formation_Error_Tolerance>10.0</Squadron_Formation_Error_Tolerance>
@@ -1039,6 +1107,8 @@
 			<!-- Primary ability -->
 					<Unit_Ability>
 				<Type>HUNT</Type>
+				<SFXEvent_GUI_Unit_Ability_Activated> Unit_hunt_rep_fighter </SFXEvent_GUI_Unit_Ability_Activated> 
+				<SFXEvent_Target_Ability> Unit_hunt_rep_fighter </SFXEvent_Target_Ability> 
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 
@@ -1611,30 +1681,32 @@
 			HP_Ywing_01, HP_Ywing_02, HP_Ywing_03
 		</HardPoints>
 
-		<SFXEvent_Fire> Unit_Y_Wing_Fire </SFXEvent_Fire>
-		<SFXEvent_Select>Unit_Select_Y_Wing</SFXEvent_Select>
-		<SFXEvent_Move>Unit_Move_Y_Wing</SFXEvent_Move>
-		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Y_Wing</SFXEvent_Fleet_Move>
-		<SFXEvent_Attack>Unit_Attack_Y_Wing</SFXEvent_Attack>
-		<SFXEvent_Guard>Unit_Guard_Y_Wing</SFXEvent_Guard>
-		<SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_Y_Wing </SFXEvent_Move_Into_Asteroid_Field>
-		<SFXEvent_Move_Into_Nebula> Unit_Nebula_Y_Wing </SFXEvent_Move_Into_Nebula>
+		<SFXEvent_Fire>Unit_Attack_rep_y_wing</SFXEvent_Fire>
+		<SFXEvent_Select>Unit_Select_rep_y_wing</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_rep_y_wing</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_rep_y_wing</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_rep_y_wing</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_rep_y_wing</SFXEvent_Guard>
+		<SFXEvent_Assist_Move> Unit_Assist_Move_rep_y_wing </SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack> Unit_Assist_Attack_rep_y_wing </SFXEvent_Assist_Attack>
+		<SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_rep_y_wing </SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Nebula> Unit_Nebula_rep_y_wing </SFXEvent_Move_Into_Nebula>
 
-		<SFXEvent_Health_Low_Warning> Unit_Health_Low_Y_Wing </SFXEvent_Health_Low_Warning>
-		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_Y_Wing </SFXEvent_Health_Critical_Warning>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_target_turret_rep_y_wing</SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_target_turret_rep_y_wing</SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_target_turret_rep_y_wing</SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_target_turret_rep_y_wing</SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_Attack_rep_y_wing </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_Attack_rep_y_wing </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_Attack_rep_y_wing </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_FIGHTER_BAY, Unit_Attack_rep_y_wing </SFXEvent_Attack_Hardpoint>
+		
+		<Death_SFXEvent_Start_Die> Unit_Death_rep_y_wing </Death_SFXEvent_Start_Die>  
 
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Y_Wing </SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Y_Wing </SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_Y_Wing </SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_Y_Wing </SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_Y_Wing </SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_ENGINES_Y_Wing </SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_HP_GRAV_Y_Wing </SFXEvent_Attack_Hardpoint>
-
-		<SFXEvent_Ambient_Moving> Unit_Y_Wing_Fly_By </SFXEvent_Ambient_Moving>
-		<SFXEvent_Ambient_Moving_Min_Delay_Seconds> 5 </SFXEvent_Ambient_Moving_Min_Delay_Seconds>
-		<SFXEvent_Ambient_Moving_Max_Delay_Seconds> 10 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>
-		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Y_Wing_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+		<SFXEvent_Health_Low_Warning> Unit_low_health_rep_y_wing </SFXEvent_Health_Low_Warning>
+		<SFXEvent_Health_Critical_Warning> Unit_critical_health_rep_y_wing </SFXEvent_Health_Critical_Warning>
+		<SFXEvent_Enemy_Damaged_Health_Low_Warning> Unit_enemy_low_health_rep_y_wing </SFXEvent_Enemy_Damaged_Health_Low_Warning>
+		<SFXEvent_Enemy_Damaged_Health_Critical_Warning> Unit_enemy_critical_health_rep_y_wing </SFXEvent_Enemy_Damaged_Health_Critical_Warning>
 
 		<CategoryMask> Bomber | AntiCapital</CategoryMask>
 		<Property_Flags> SmallShip </Property_Flags>
@@ -1668,6 +1740,8 @@
 
 			<Unit_Ability>
 				<Type>HUNT</Type>
+				<SFXEvent_GUI_Unit_Ability_Activated> Unit_hunt_rep_y_wing </SFXEvent_GUI_Unit_Ability_Activated> 
+				<SFXEvent_Target_Ability> Unit_hunt_rep_y_wing </SFXEvent_Target_Ability> 
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 

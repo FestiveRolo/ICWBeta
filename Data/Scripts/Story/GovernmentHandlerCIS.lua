@@ -27,7 +27,7 @@ function Definitions()
     DebugMessage("%s -- In Definitions", tostring(Script))
 
     StoryModeEvents = {
-        Start_AI = Find_Faction,
+        Government_Start = Find_Faction,
         Ratchet_Up = Support_AI,
         Buy_Support_IGBC = Support_IGBC,
         Buy_Support_Techno = Support_Techno,
@@ -59,11 +59,11 @@ function Support_AI(message)
 
 
         if p_cis.Get_Difficulty() == "Easy" then
-            increaseAmount = 15
+            increaseAmount = 25
         elseif p_cis.Get_Difficulty() == "Hard" then
-            increaseAmount = 45
+            increaseAmount = 40
         else
-            increaseAmount = 35
+            increaseAmount = 30
         end
 
         currentSupport = GlobalValue.Get("IGBCApprovalRating")

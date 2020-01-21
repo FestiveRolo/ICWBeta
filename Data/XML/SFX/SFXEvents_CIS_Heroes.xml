@@ -346,6 +346,32 @@
 		<SFXEvent Name="Unit_Fleet_Move_Dooku">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>
+		Data\Audio\SFX\Units\dooku\move\at_last.wav
+		Data\Audio\SFX\Units\dooku\move\cartel_have_their_way_with_you.wav
+		Data\Audio\SFX\Units\dooku\move\challenge_a_sith_illadviced.wav
+		Data\Audio\SFX\Units\dooku\move\corrupted_by_the_jedi.wav
+		Data\Audio\SFX\Units\dooku\move\darth_sidous_does_not_accept_failure.wav
+		Data\Audio\SFX\Units\dooku\move\dont_pursuit_trinkets.wav
+		Data\Audio\SFX\Units\dooku\move\dont_underestimate_master_of_the_darkside.wav
+		Data\Audio\SFX\Units\dooku\move\educate_them_that_they_have_lost.wav
+		Data\Audio\SFX\Units\dooku\move\end_this_quickly_general.wav
+		Data\Audio\SFX\Units\dooku\move\focus_be_connected_to_your_hatred.wav
+		Data\Audio\SFX\Units\dooku\move\hope_is_something_we_can_let_our_enemy.wav
+		Data\Audio\SFX\Units\dooku\move\i_more_powerful_than_any_jedi.wav
+		Data\Audio\SFX\Units\dooku\move\i_sense_master_yodas_hand_in_this.wav
+		Data\Audio\SFX\Units\dooku\move\i_urge_you_to_reconsider.wav
+		Data\Audio\SFX\Units\dooku\move\i_warn_you_sith_dont_forgive.wav
+		Data\Audio\SFX\Units\dooku\move\lord_sidious_order_will_be_restored.wav
+		Data\Audio\SFX\Units\dooku\move\my_master_will_be_pleased.wav
+		Data\Audio\SFX\Units\dooku\move\my_revolution_will_be_yours_willingly_or_not.wav
+		Data\Audio\SFX\Units\dooku\move\republics_crumble.wav
+		Data\Audio\SFX\Units\dooku\move\surley_you_can_do_better.wav
+		Data\Audio\SFX\Units\dooku\move\the_jedi_are_corrupt.wav
+		Data\Audio\SFX\Units\dooku\move\time_for_civil_discourse_has_past.wav
+		Data\Audio\SFX\Units\dooku\move\triumph_here_and_wealth_and_power_will_be_yours.wav
+		Data\Audio\SFX\Units\dooku\move\warfare_febble_minded.wav
+		Data\Audio\SFX\Units\dooku\move\with_us_or_against_us.wav
+		Data\Audio\SFX\Units\dooku\move\you_popular_bankingclan.wav
 		Data\Audio\SFX\Units\dooku\space\educate_them_that_they_have_lost.wav
 		Data\Audio\SFX\Units\dooku\space\go_bring_order_from_the_chaos.wav
 		Data\Audio\SFX\Units\dooku\space\hope_is_something_we_can_let_our_enemy.wav
@@ -441,7 +467,9 @@
 		<Samples>
 		Data\Audio\SFX\Units\dooku\critical_health\no_time_for_brutes.wav
 		Data\Audio\SFX\Units\dooku\critical_health\small_always_want_to_teardown.wav
-		Data\Audio\SFX\Units\dooku\critical_health\repaid_tenfold.wav</Samples>
+		Data\Audio\SFX\Units\dooku\critical_health\repaid_tenfold.wav
+		Data\Audio\SFX\Units\dooku\defend\my_friends_this_is_a_misstake.wav
+		</Samples>
 		<Localize> Yes </Localize>
 		<Play_Sequentially> No </Play_Sequentially>
 		<Text_ID>TEXT_SFX_OBI_GUARD_1, TEXT_SFX_OBI_GUARD_2</Text_ID>
